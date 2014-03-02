@@ -1,0 +1,2018 @@
+/* ^^^^^^html-css: tamthieuhiep@gmail.com ^^^^^^^^^ */
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body { /*background:#fff url(images/bg-body.jpg) no-repeat top center;*/
+	font: 12px Arial, Helvetica, sans-serif
+}
+
+ul,h1,h2,h3,li,p {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.clearfix:after {
+	clear: both;
+	display: block;
+	content: ".";
+	height: 0;
+	visibility: hidden;
+}
+
+* html>body .clearfix {
+	width: 100%;
+	display: block;
+}
+
+* html .clearfix {
+	height: 1%;
+}
+
+.clearfix {
+	overflow: hidden
+}
+
+.container {
+	width: 948px;
+	margin: 0 auto;
+}
+
+.col-header {
+	width: 948px;
+	height: 123px;
+}
+
+.col-main {
+	margin: 0 auto;
+	width: 948px;
+}
+
+.col-main .col-flash {
+	width: 976px;
+	height: 267px;
+	padding: 6px;
+	border-bottom: 1px solid #d9d9d9;
+}
+/*Box-td*/
+.language {
+	float: right;
+}
+
+.language img {
+	border: none;
+	padding: 7px 7px 0 0;
+}
+
+.col-body {
+	margin-top: 6px;
+	clear: both
+}
+
+.col-right-cm {
+	width: 720px;
+	float: right
+}
+
+.col-right {
+	width: 731px;
+	float: right
+}
+
+.col-left {
+	width: 215px;
+	float: left
+}
+
+.warr-foot {
+	width: 100%;
+	clear: both;
+	background: #306FBA;
+}
+
+.warr-foot .c-footer-c {
+	margin: 0 auto;
+	font-size: 12px;
+	font-weight: normal;
+	width: 948px;
+}
+
+.box-service {
+	float: left;
+	margin-left: 10px;
+	margin-bottom: 40px;
+	border: 1px solid #ccc;
+	-webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+	border-radius: 6px;
+	width: 353px;
+	min-height: 305px; /*292px;*/
+	background: url("bg-service.jpg"
+		/*tpa=http://inthanhxuyen.com/data/css/images/bg-service.jpg*/)
+		no-repeat bottom right;
+	overflow: hidden;
+}
+
+.box-service h2 {
+	font: 20px "Times New Roman", Times, serif;
+	color: #F00;
+	text-transform: uppercase;
+	border-bottom: 1px solid #ccc;
+	padding-left: 8px;
+	line-height: 1.6em;
+}
+
+.box-service h2 a {
+	color: #F00;
+	text-decoration: none
+}
+
+.box-service h2 a:hover {
+	color: #326fba
+}
+
+.box-service .pd-box {
+	padding: 15px;
+}
+
+.box-service img {
+	float: left;
+	width: auto;
+	float: left;
+	margin-right: 8px;
+	border: none
+}
+
+.box-service p.content {
+	color: #333;
+	line-height: 1.5em;
+}
+
+ul.list-service {
+	clear: both;
+	margin: 10px 20px 20px 20px
+}
+
+ul.list-service li {
+	float: left;
+	font-weight: bold;
+	width: 95%;
+	padding-bottom: 8px;
+}
+
+ul.list-service li a {
+	text-decoration: none;
+	color: #326fba;
+	background: url("arr3.jpg" /*tpa=http://inthanhxuyen.com/data/css/images/arr3.jpg*/)
+		no-repeat 0 3px;
+	padding-left: 9px;
+}
+
+ul.list-service li a:hover {
+	color: #d51f0f
+}
+
+/*box-product-c*/
+.box-product-c {
+	width: 718px;
+	background: #fff;
+	overflow: hidden;
+	border: 1px solid #c4c4c4;
+	margin-bottom: 6px;
+	-webkit-border-top-left-radius: 5px;
+	-webkit-border-top-right-radius: 5px;
+	-moz-border-radius-topleft: 5px;
+	-moz-border-radius-topright: 5px;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	clear: both
+}
+
+.box-product-c h1 {
+	color: #1E7BC9;
+	font-weight: bold;
+	font-size: 12px;
+	background: url("bg-td.jpg"
+		/*tpa=http://inthanhxuyen.com/data/css/images/bg-td.jpg*/) repeat-x;
+	text-transform: uppercase;
+	padding-left: 10px;
+	line-height: 2.3em;
+	border-bottom: 1px solid #c4c4c4;
+}
+
+.box-product-c h1 a {
+	color: #1E7BC9;
+	text-decoration: none
+}
+
+.box-product-id {
+	width: 718px;
+	background: #fff;
+	overflow: hidden;
+	border: 1px solid #c4c4c4;
+	margin-bottom: 6px;
+	-webkit-border-top-left-radius: 5px;
+	-webkit-border-top-right-radius: 5px;
+	-moz-border-radius-topleft: 5px;
+	-moz-border-radius-topright: 5px;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	clear: both
+}
+/*.box-product-id .link-id{ background: url(images/bg-td.jpg) repeat-x;  overflow:hidden}*/
+.box-product-id .link-id h1 {
+	color: #666;
+	font-weight: bold;
+	font-size: 12px;
+	float: left;
+	text-transform: uppercase;
+	padding-left: 10px;
+	line-height: 2.4em;
+}
+
+.box-product-id .link-id h1 a {
+	background: url("bg-td.jpg"
+		/*tpa=http://inthanhxuyen.com/data/css/images/bg-td.jpg*/) repeat-x;
+	color: #666;
+	text-decoration: none
+}
+
+.box-product-id .link-id h1 a:hover {
+	color: #1e7bc9;
+	text-decoration: none
+}
+
+.link-id {
+	background: url("bg-td.jpg"
+		/*tpa=http://inthanhxuyen.com/data/css/images/bg-td.jpg*/) repeat-x;
+	overflow: hidden
+}
+
+.box-product-id .link-id h2 {
+	background: url("bg-td.jpg"
+		/*tpa=http://inthanhxuyen.com/data/css/images/bg-td.jpg*/) repeat-x;
+	color: #666;
+	font-weight: bold;
+	font-size: 12px;
+	float: left;
+	text-transform: uppercase;
+	padding-left: 10px;
+	line-height: 2.4em;
+}
+
+.box-product-id .link-id h2 a {
+	color: #666;
+	text-decoration: none
+}
+
+.box-product-id .link-id h2 a:hover {
+	color: #1e7bc9;
+	text-decoration: none
+}
+
+.box-product-id .link-id p.view {
+	float: right;
+}
+
+.box-product-id ul {
+	font-weight: bold;
+	text-align: center;
+	padding: 5px 0 5px 0;
+	clear: both
+}
+
+.box-product-id ul li {
+	float: left;
+	width: 199px;
+	padding: 15px 20px 15px 20px;
+}
+
+.box-product-id ul li.none {
+	border-right: none;
+}
+
+.box-product-id ul li img {
+	width: 198x;
+	height: 146px;
+	border: none
+}
+
+.box-product-id ul li h2 {
+	padding: 8px 0 0 0;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+.box-product-id ul li h2 a {
+	color: #1e7bc9;
+	text-decoration: none
+}
+
+.box-product-id ul li h2 a:hover {
+	color: #c80000;
+}
+
+.box-product-id p.price {
+	padding: 6px 6px 0 0;
+	color: #000
+}
+
+.box-product-id p.price span {
+	color: #F00
+}
+
+.box-product-id p.view {
+	font-size: 11px;
+	padding: 6px 6px 0 0;
+	text-align: right
+}
+
+.box-product-id p.view a {
+	text-decoration: none;
+	color: #1e7bc9
+}
+
+.box-product-id p.view a:hover {
+	text-decoration: underline
+}
+
+.col-hatc {
+	width: 315px;
+	float: left;
+}
+
+.col-hatc img {
+	padding: 6px;
+	border: none;
+	width: 133px;
+}
+
+.col-hatc .fix {
+	padding: 8px;
+}
+
+.col-hatc h2 {
+	background: url("bg-title.jpg"
+		/*tpa=http://inthanhxuyen.com/data/css/images/bg-title.jpg*/) repeat-x
+		bottom;
+	border-bottom: 1px solid #b9dbda;
+	color: #e57710;
+	font-weight: bold;
+	font-size: 12px;
+	text-transform: uppercase;
+	padding-left: 10px;
+	line-height: 26px;
+}
+
+.col-news {
+	width: 314px;
+	border-right: 1px solid #d9d9d9;
+	float: left;
+}
+
+.col-news .fix {
+	padding: 5px 15px 15px 15px;
+}
+
+.col-news h2 {
+	background: url("bg-title.jpg"
+		/*tpa=http://inthanhxuyen.com/data/css/images/bg-title.jpg*/) repeat-x
+		bottom;
+	border-bottom: 1px solid #b9dbda;
+	color: #e57710;
+	font-weight: bold;
+	font-size: 12px;
+	text-transform: uppercase;
+	padding-left: 10px;
+	line-height: 26px;
+}
+
+.col-news h3 {
+	padding: 5px 0 6px 0;
+	font: 11px Arial;
+	color: #999
+}
+
+.col-news h3 a {
+	text-decoration: none;
+	font: bold 12px Arial, Helvetica, sans-serif;
+	color: #036fb4;
+	line-height: 1.5em;
+}
+
+.col-news h3 a:hover {
+	text-decoration: underline
+}
+
+.col-news img {
+	float: left;
+	border: 1px solid #ccc;
+	padding: 1px;
+	width: 120px;
+	height: 96px;
+	margin-right: 10px;
+}
+
+.col-news p {
+	color: #373737
+}
+
+.col-doitac {
+	width: 100%;
+	border-top: 1px solid #d9d9d9;
+	clear: both
+}
+
+.col-doitac .fix {
+	padding: 10px;
+}
+
+.col-doitac h2 {
+	background: url("bg-title.jpg"
+		/*tpa=http://inthanhxuyen.com/data/css/images/bg-title.jpg*/) repeat-x
+		bottom;
+	border-bottom: 1px solid #b9dbda;
+	color: #e47611;
+	font-weight: bold;
+	font-size: 12px;
+	text-transform: uppercase;
+	padding-left: 10px;
+	line-height: 26px;
+}
+
+.col-doitac img {
+	width: auto;
+	height: 73px;
+	margin: 6px;
+	border: none
+}
+
+.box-title-c {
+	width: 720px;
+	background: #fff;
+	overflow: hidden;
+	border: 1px solid #c4c4c4;
+	margin-bottom: 6px;
+	-webkit-border-top-left-radius: 5px;
+	-webkit-border-top-right-radius: 5px;
+	-moz-border-radius-topleft: 5px;
+	-moz-border-radius-topright: 5px;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	clear: both
+}
+
+.box-title-c h1 {
+	color: #333;
+	font-weight: bold;
+	font-size: 12px;
+	background: url("bg-td.jpg"
+		/*tpa=http://inthanhxuyen.com/data/css/images/bg-td.jpg*/) repeat-x;
+	text-transform: uppercase;
+	padding-left: 10px;
+	line-height: 2.4em;
+}
+
+.box-title-c .link-id h2 {
+	background: url("bg-td.jpg"
+		/*tpa=http://inthanhxuyen.com/data/css/images/bg-td.jpg*/) repeat-x;
+}
+
+.box-title-c h2 {
+	color: #333;
+	font-weight: bold;
+	font-size: 12px;
+	text-transform: uppercase;
+	padding-left: 10px;
+	line-height: 2.4em;
+}
+
+.box-title-c h2 a {
+	text-decoration: none;
+	color: #333333;
+}
+
+.box-title-c h2 a:hover {
+	text-decoration: underline;
+}
+
+.c-stdo-about {
+	line-height: 22px;
+	text-align: justify
+}
+
+.stdo-img-about {
+	width: 336px;
+	height: 276px;
+	float: right;
+	padding: 0 0 8px 10px
+}
+
+.box-r-c {
+	background: url("bg-bot.jpg"
+		/*tpa=http://inthanhxuyen.com/data/css/images/bg-bot.jpg*/) no-repeat
+		bottom;
+	padding: 10px 8px 10px 10px;
+}
+
+.col-slide {
+	background: #fdf3f9;
+	width: 948px;
+	position: relative;
+	overflow: hidden;
+	height: 240px;
+	border-top: 1px solid #fff;
+	clear: both
+}
+
+.dobong {
+	background: url("bg-dobong.jpg"
+		/*tpa=http://inthanhxuyen.com/data/css/images/bg-dobong.jpg*/)
+		no-repeat center;
+	clear: both;
+	height: 30px;
+	width: 100%;
+}
+
+.col-news-c {
+	padding: 10px;
+	clear: both
+}
+
+.col-news-c .title {
+	color: #3d3d66;
+	font: 24px Verdana, Geneva, sans-serif;
+	padding: 6px 0 8px;
+}
+
+.ad {
+	padding: 5px 0 8px 0
+}
+
+.ad img {
+	border: none;
+	padding: 5px;
+}
+/*.Style-footer*/
+.menu-footer {
+	clear: both;
+	width: 948px;
+	color: #fff;
+	text-align: center;
+	line-height: 2.9em;
+	overflow: hidden
+}
+
+.menu-footer a {
+	color: #fff;
+	text-decoration: none;
+	padding: 0 12px 0 12px;
+	line-height: 25px;
+}
+
+.menu-footer a:hover {
+	text-decoration: underline
+}
+
+.input-list {
+	width: 142px;
+	background: #fff;
+	font-size: 11px;
+	border: none;
+	color: #999;
+	margin: 4px 5px 0 0;
+	padding: 1px;
+}
+
+.brd {
+	padding: 0 6px 0 6px;
+	color: #ccc;
+	border-bottom: 1px solid #999;
+	float: left;
+	line-height: 2.0em;
+	width: 710px;
+}
+
+.brd a {
+	color: #ffe303
+}
+
+.brd img {
+	border: none;
+	vertical-align: middle
+}
+
+.fl {
+	float: left;
+}
+
+.fr {
+	float: right;
+}
+
+.footer {
+	width: 948px;
+	color: #fff;
+	overflow: hidden;
+	padding: 35px 0 50px 0;
+	clear: both
+}
+
+.footer span.title-cpn {
+	color: #1e7bc9;
+	text-transform: uppercase;
+	font-weight: bold
+}
+
+.footer span.title-cpn b {
+	color: #d80b00
+}
+
+.footer .td1 {
+	float: left;
+	line-height: 16px;
+}
+
+.footer .td2 {
+	float: right;
+	line-height: 16px;
+	padding: 0 0 0 50px;
+}
+
+.footer .td2 span {
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+.c-lg {
+	width: 95px;
+	padding: 12px 8px 38px 0;
+	float: right;
+	clear: both;
+}
+
+.c-lg img {
+	border: none;
+	padding: 4px;
+}
+
+.box_search {
+	float: right;
+	width: 184px;
+	padding: 4px 0 0;
+}
+
+.box_search form {
+	padding: 4px 0 0 0;
+}
+
+.input {
+	float: left;
+	width: 147px;
+	background: url("bg-input.jpg"
+		/*tpa=http://inthanhxuyen.com/data/css/images/bg-input.jpg*/)
+		no-repeat;
+	height: 26px;
+	border: none;
+	font: 11px Arial, Helvetica, sans-serif;
+	padding-left: 6px;
+	vertical-align: middle;
+	color: #9a9a9a
+}
+
+.btn-search {
+	float: left;
+	background: url("btn-s.jpg"
+		/*tpa=http://inthanhxuyen.com/data/css/images/btn-s.jpg*/) no-repeat;
+	width: 27px;
+	height: 26px;
+	border: none;
+	vertical-align: middle;
+}
+/* ^^^End_box^^^ */
+.box-c-news {
+	width: 722px;
+	background: #131313;
+	overflow: hidden;
+	border: 1px solid #c4c4c4;
+	margin-bottom: 6px;
+	-moz-border-radius-topleft: 6px;
+	-moz-border-radius-topright: 6px;
+	clear: both
+}
+
+.box-c-news h1 {
+	background: #000;
+	-moz-border-radius-topleft: 6px;
+	-moz-border-radius-topright: 6px;
+	border-bottom: 1px solid #000;
+	color: #ccc;
+	font-weight: bold;
+	font-size: 12px;
+	text-transform: uppercase;
+	padding-left: 10px;
+	line-height: 26px;
+}
+
+.box-c-news  ul {
+	padding: 10px
+}
+
+.box-c-news  ul li {
+	list-style: none;
+	width: 100%;
+	float: left;
+	padding: 12px 0 12px 0;
+	border-bottom: 1px dotted #333;
+}
+
+.box-c-news  ul li img {
+	float: left;
+	width: 140px;
+	height: 111px;
+	padding: 2px;
+	border: 1px solid #333;
+	margin-right: 12px;
+}
+
+.box-c-news  ul li h2 a {
+	font-size: 12px;
+	color: #a56a15;
+	text-decoration: none
+}
+
+.box-c-news  ul li h2 a:hover {
+	text-decoration: underline
+}
+
+.box-c-news  ul li span {
+	color: #b1b1b1;
+	font-size: 11px;
+	padding-bottom: 8px;
+}
+
+.box-c-news  ul li p.m-content {
+	font-size: 12px;
+	color: #ccc;
+	line-height: 1.5em;
+	padding: 5px 0 8px 0
+}
+
+.box-c-news  ul li p.xemtiep {
+	text-align: right;
+	padding-top: 8px;
+}
+
+.box-c-news  ul li p.xemtiep a {
+	font: 11px tahoma;
+	color: #ffe400;
+	text-decoration: none
+}
+
+.box-c-news  ul li p.xemtiep a:hover {
+	text-decoration: underline
+}
+
+/* ^^^^^list-menu^^^^^^^^^^ */
+.box-c-prodd {
+	width: 722px;
+	background: #131313;
+	overflow: hidden;
+	border: 1px solid #c4c4c4;
+	margin-bottom: 6px;
+	-moz-border-radius-topleft: 6px;
+	-moz-border-radius-topright: 6px;
+	clear: both
+}
+
+.box-c-prodd h1 {
+	background: #000;
+	-moz-border-radius-topleft: 6px;
+	-moz-border-radius-topright: 6px;
+	border-bottom: 1px solid #000;
+	color: #ccc;
+	font-weight: bold;
+	font-size: 12px;
+	text-transform: uppercase;
+	padding-left: 10px;
+	line-height: 26px;
+}
+
+/*Grid-list*/
+.col-box-spid {
+	width: 684px;
+	float: left;
+	clear: both
+}
+
+.nav-title {
+	width: 684px;
+	height: 33px;
+	background: url("bg-top-id.jpg"
+		/*tpa=http://inthanhxuyen.com/data/css/images/bg-top-id.jpg*/)
+		no-repeat;
+}
+
+.nav-title .title-left {
+	padding-left: 35px;
+	font: bold 16px arial;
+	color: #286abc;
+	line-height: 33px;
+	float: left;
+}
+
+.nav-title .list-tinhthanh {
+	font: 11px tahoma;
+	color: #686868;
+	line-height: 33px;
+	text-align: right;
+	padding-right: 5px
+}
+
+.nav-title .list-tinhthanh a {
+	font: 11px tahoma;
+	color: #686868;
+	text-decoration: none;
+	line-height: 33px;
+	padding: 0 5px 0 5px;
+}
+
+.nav-title .list-tinhthanh a:hover {
+	text-decoration: underline
+}
+
+/*Grid-list*/
+.box-list-pro {
+	float: left;
+	width: 100%;
+	border-bottom: 1px solid #333;
+	clear: both;
+}
+
+.box-list-pro:hover {
+	background: #272727;
+}
+
+.box-list-pro .view-img {
+	float: left;
+}
+
+.box-list-pro .view-img img {
+	border: none;
+	width: 135px;
+	margin: 12px 12px 12px 12px;
+}
+
+.box-list-pro .view-content {
+	float: left;
+	width: 55%;
+	padding-top: 18px;
+}
+
+.box-list-pro .view-content h2 {
+	font: bold 12px arial;
+	padding-bottom: 12px;
+	color: #a06715
+}
+
+.box-list-pro .view-content h2 a {
+	font: bold 12px arial;
+	text-decoration: none;
+	color: #a06715
+}
+
+.box-list-pro .view-content h2 a:hover {
+	color: #ffe400;
+}
+
+.box-list-pro .view-content p.quite {
+	font-size: 12px;
+	color: #ccc;
+	padding-top: 5px;
+	line-height: 1.6em
+}
+
+.box-list-pro .view-price {
+	float: left;
+	width: 18%;
+	padding-top: 18px;
+	text-align: right
+}
+
+.box-list-pro .view-price .txt-view {
+	font: 11px tahoma;
+	color: #ccc;
+}
+
+.box-list-pro .view-price .txt-view span {
+	font: bold 12px arial;
+	color: #F00
+}
+
+.bar_con {
+	font: 12px Tahoma, Geneva, sans-serif;
+	background: url("bg-view.gif"
+		/*tpa=http://inthanhxuyen.com/data/css/images/bg-view.gif*/) repeat-x
+		bottom;
+	height: 30px;
+}
+
+.bar_con ul {
+	padding-right: 5px;
+}
+
+.bar_con ul li {
+	float: right;
+}
+
+.bar_con ul li.normal {
+	margin-left: 10px;
+	line-height: 28px;
+	font-size: 11px;
+}
+
+.bar_con ul li select {
+	font: 11px Tahoma, Geneva, sans-serif;
+	margin: 5px 0 0 5px;
+	width: 120px;
+	height: 20px;
+}
+
+.bar_con ol {
+	float: left;
+	list-style: none;
+	padding-left: 5px;
+	height: 30px;
+	line-height: 30px;
+}
+
+.bar_con ol li {
+	float: left;
+	padding-right: 5px;
+}
+
+.bar_con ol li a {
+	height: 30px;
+	width: 65px;
+	float: left;
+	text-decoration: underline;
+	padding-left: 8px;
+	font-size: 11px;
+}
+
+.bar_con ol li a:hover {
+	background: url("search_b.gif"
+		/*tpa=http://inthanhxuyen.com/data/css/images/search_b.gif*/)
+		no-repeat 5px 1px;
+	color: #454545;
+}
+
+.bar_con ol li a.current,.bar_con ol li a.current:hover {
+	background: url("search_b.gif"
+		/*tpa=http://inthanhxuyen.com/data/css/images/search_b.gif*/)
+		no-repeat -68px 1px;
+}
+
+.bar_con ol li a span {
+	height: 19px;
+	width: 14px;
+	margin: 6px 0 5px;
+	padding-right: 5px;
+	float: left;
+}
+
+.bar_con ol li a.row,.bar_con ol li a.col,.bar_con ol li a.grid {
+	text-decoration: none;
+	color: #333;
+	overflow: hidden;
+}
+
+.bar_con ol li a.row span {
+	background: url("search_i.gif"
+		/*tpa=http://inthanhxuyen.com/data/css/images/search_i.gif*/)
+		no-repeat left 0px;
+}
+
+.bar_con ol li a.grid span {
+	background: url("search_i.gif"
+		/*tpa=http://inthanhxuyen.com/data/css/images/search_i.gif*/)
+		no-repeat -25px 0px;
+}
+/* ^^^^^list-cm^^^^^^^^^^ */
+.list_cl {
+	padding: 10px;
+	clear: both;
+}
+
+.list_cl h2 {
+	margin-bottom: 10px;
+	border-bottom: 1px solid #ccc;
+	color: #900;
+	clear: both;
+	background: none;
+}
+
+.list_cl ul {
+	padding: 0;
+	margin: 0
+}
+
+.list_cl ul li {
+	background: url("arr3.jpg" /*tpa=http://inthanhxuyen.com/data/css/images/arr3.jpg*/)
+		no-repeat 0 6px;
+	display: block;
+	font-size: 11px;
+	line-height: 16px;
+	padding: 2px 0 2px 9px;
+}
+
+.list_cl ul li a {
+	display: block;
+	text-decoration: none;
+	color: #333;
+}
+
+.list_cl ul li a:hover {
+	text-decoration: underline;
+}
+
+/* ^^^^^list-cm^^^^^^^^^^ */
+.list_search {
+	padding: 6px;
+	clear: both
+}
+
+.list_search h3 {
+	border-bottom: 1px dotted #333;
+	color: #333;
+	font: bold 12px Arial;
+	padding: 0 0 5px 0;
+}
+
+.list_search ul {
+	padding: 8px 0 8px 12px;
+}
+
+.list_search ul li {
+	background: url("arr3.jpg" /*tpa=http://inthanhxuyen.com/data/css/images/arr3.jpg*/)
+		no-repeat 0 6px;
+	display: block;
+	font-size: 11px;
+	line-height: 16px;
+	padding: 2px 0 2px 9px;
+}
+
+.list_search ul li a {
+	display: block;
+	text-decoration: none;
+	color: #666;
+}
+
+.list_search ul li a:hover {
+	text-decoration: underline;
+}
+
+.box-spdv {
+	width: 357px;
+	float: left;
+}
+
+.fix {
+	padding: 18px;
+}
+
+.box-spdv h2 {
+	background: url("bg-title.jpg"
+		/*tpa=http://inthanhxuyen.com/data/css/images/bg-title.jpg*/) repeat-x
+		bottom;
+	border-bottom: 1px solid #b9dbda;
+	color: #e57710;
+	font-weight: bold;
+	font-size: 12px;
+	text-transform: uppercase;
+	padding-left: 10px;
+	line-height: 26px;
+}
+
+.box-spdv ul {
+	list-style: none;
+}
+
+.box-spdv ul li {
+	float: left;
+	width: 140px;
+	padding: 0 15px 16px 5px;
+}
+
+.box-spdv ul li img {
+	border: 1px solid #ccc;
+	padding: 2px;
+	width: 132px;
+	height: 82px;
+}
+
+.box-spdv ul li img:hover {
+	border: 1px solid #6aba23;
+}
+
+.box-spdv ul li h1 {
+	padding: 8px 0 3px 0
+}
+
+.box-spdv ul li h1 a {
+	text-decoration: none;
+	font: bold 11px tahoma;
+	color: #525252;
+}
+
+.box-spdv ul li h1 a:hover {
+	text-decoration: underline
+}
+
+.box-spdv ul li p {
+	font: 11px Tahoma, Geneva, sans-serif;
+	color: #525252;
+}
+
+/* ^^^^^box-support ^^^^^^^^^^ */
+.box-support {
+	width: 266px;
+	float: right;
+	background: #fff;
+	border: 1px solid #c4c4c4;
+	margin-bottom: 6px;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+
+.fix {
+	padding: 5px;
+}
+
+.box-support h2 {
+	background: url("bg-tl.jpg"
+		/*tpa=http://inthanhxuyen.com/data/css/images/bg-tl.jpg*/) repeat-x;
+	color: #fff;
+	-webkit-border-top-left-radius: 5px;
+	-webkit-border-top-right-radius: 5px;
+	-moz-border-radius-topleft: 5px;
+	-moz-border-radius-topright: 5px;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	font-weight: bold;
+	font-size: 12px;
+	text-transform: uppercase;
+	padding-left: 10px;
+	line-height: 26px;
+}
+
+.box-support h2 span {
+	color: #FC0;
+	padding-right: 5px;
+}
+
+.support {
+	padding: 4px;
+	margin: 5px 0 5px 0;
+	overflow: hidden
+}
+
+.support .bg-sp {
+	background: url("bg-support.jpg"
+		/*tpa=http://inthanhxuyen.com/data/css/images/bg-support.jpg*/)
+		no-repeat;
+	width: 250px;
+	height: 71px;
+}
+
+.support .txt-phone {
+	font: bold 20px arial;
+	color: #da251d;
+	padding: 6px 0 0 42px
+}
+
+.support .txt-mail {
+	font: 11px arial;
+	color: #086cb6;
+	padding: 11px 0 0 42px
+}
+
+.img-yahoo {
+	padding: 6px 0 5px 0;
+	font-size: 11px;
+	color: #1b7fcb;
+}
+
+.img-yahoo ul li {
+	float: left;
+	width: 43%;
+	margin-right: 16px;
+}
+
+.skype {
+	padding: 0 0 5px 0
+}
+
+.img-yahoo img {
+	padding: 5px 10px 5px 0;
+	border: none
+}
+
+.skype img {
+	padding: 5px 5px 5px 0;
+	border: none
+}
+
+/* ^^^^^box-ad ^^^^^^^^^^ */
+.box-ad {
+	width: 260px;
+	margin-top: 5px;
+	float: right;
+}
+
+.box-ad h2 {
+	background: #000;
+	color: #ccc;
+	font-weight: bold;
+	font-size: 12px;
+	text-transform: uppercase;
+	padding-left: 10px;
+	line-height: 26px;
+}
+
+.box-ad img {
+	margin-bottom: 5px;
+	width: 260px;
+	border: none
+}
+
+/* ^^^^^box-support ^^^^^^^^^^ */
+.box-news-id {
+	width: 215px;
+	float: right;
+	background: #fff;
+	border: 1px solid #c4c4c4;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	margin-bottom: 6px;
+}
+
+.box-news-id .fix {
+	padding: 5px;
+}
+
+.box-news-id .fix-n {
+	padding: 9px;
+}
+
+.box-news-id h2 {
+	background: url("bg-tl.jpg"
+		/*tpa=http://inthanhxuyen.com/data/css/images/bg-tl.jpg*/) repeat-x;
+	color: #fff;
+	-webkit-border-top-left-radius: 5px;
+	-webkit-border-top-right-radius: 5px;
+	-moz-border-radius-topleft: 5px;
+	-moz-border-radius-topright: 5px;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	font-weight: bold;
+	font-size: 12px;
+	text-transform: uppercase;
+	padding-left: 10px;
+	line-height: 26px;
+}
+
+ul.tktc {
+	clear: both;
+	padding: 12px;
+	font-weight: bold
+}
+
+ul.tktc li.tn {
+	padding-left: 24px;
+	background: url("ico2.jpg" /*tpa=http://inthanhxuyen.com/data/css/images/ico2.jpg*/)
+		no-repeat 0 0;
+	color: #000;
+	margin-bottom: 10px;
+	line-height: 1.5em;
+}
+
+ul.tktc li.hq {
+	padding-left: 26px;
+	background: url("ico2.jpg" /*tpa=http://inthanhxuyen.com/data/css/images/ico2.jpg*/)
+		no-repeat 0 0;
+	background-position: 0 -20px;
+	margin-bottom: 10px;
+	color: #2467B5;
+	line-height: 1.5em;
+}
+
+ul.tktc li.tc {
+	padding-left: 26px;
+	background: url("ico2.jpg" /*tpa=http://inthanhxuyen.com/data/css/images/ico2.jpg*/)
+		no-repeat 0 0;
+	margin-bottom: 6px;
+	background-position: 0 -39px;
+	color: #F00;
+	line-height: 1.9em;
+}
+
+ul.support {
+	clear: both;
+	font-weight: bold;
+	border-bottom: 1px solid #ccc;
+}
+
+ul.support li.ol {
+	color: #2467B5;
+	margin-bottom: 10px
+}
+
+ul.support li.bl {
+	color: #000;
+}
+
+ul.support li img {
+	vertical-align: middle;
+	margin-right: 3px;
+}
+
+ul.support li.ts {
+	padding-left: 20px;
+	background: url("ico1.jpg" /*tpa=http://inthanhxuyen.com/data/css/images/ico1.jpg*/)
+		no-repeat 0 0;
+	color: #000;
+	margin-bottom: 10px;
+	line-height: 1.5em;
+}
+
+ul.support li.us {
+	padding-left: 22px;
+	background: url("ico1.jpg" /*tpa=http://inthanhxuyen.com/data/css/images/ico1.jpg*/)
+		no-repeat 0 0;
+	background-position: 0 -26px;
+	margin-bottom: 10px;
+	color: #2467B5;
+	line-height: 1.5em;
+}
+
+ul.support li.phone {
+	padding-left: 22px;
+	background: url("ico1.jpg" /*tpa=http://inthanhxuyen.com/data/css/images/ico1.jpg*/)
+		no-repeat 0 0;
+	margin-bottom: 6px;
+	background-position: 0 -49px;
+	color: #F00;
+	line-height: 1.9em;
+}
+
+ul.photoHot {
+	min-height: 300px;
+	padding: 10px;
+	clear: both;
+	font-weight: bold;
+	text-align: center
+}
+
+ul.photoHot li {
+	margin-bottom: 12px;
+}
+
+ul.photoHot li img {
+	border: none;
+	margin-bottom: 5px;
+	width: 160px
+}
+
+ul.photoHot li h1 a {
+	font-size: 12px;
+	text-decoration: none;
+	color: #2467B5;
+}
+
+ul.photoHot li h1 a:hover {
+	text-decoration: none
+}
+
+ul.ad-bot {
+	border-bottom: 2px solid #78B3FF;
+	padding: 18px 0 0 0;
+	background: url("bg-top-ad.jpg"
+		/*tpa=http://inthanhxuyen.com/data/css/images/bg-top-ad.jpg*/)
+		no-repeat top center;
+	clear: both;
+	overflow: hidden
+}
+
+ul.ad-bot li {
+	margin: 10px 29px 12px 0;
+	float: left;
+}
+
+ul.ad-bot li img {
+	border: none;
+	margin-bottom: 5px;
+	width: 215px
+}
+
+ul.ad-bot li.none {
+	margin-right: 0 !important
+}
+
+ul.menuleft {
+	clear: both
+}
+
+ul.menuleft li {
+	background: url("arr.jpg" /*tpa=http://inthanhxuyen.com/data/css/images/arr.jpg*/)
+		no-repeat scroll 6px 8px transparent;
+	border-bottom: 1px dotted #F6E8B9;
+	width: auto;
+	color: #000;
+	display: block;
+	font-weight: bold;
+	padding: 5px 0 5px 20px;
+	text-decoration: none;
+}
+
+ul.menuleft li a {
+	color: #000;
+	text-decoration: none;
+}
+
+.lch {
+	padding-left: 43px !important;
+	background-color: #999;
+	cursor: pointer;
+}
+
+ul.menuleft li a:hover,ul.menuleft li a.active {
+	color: #1e7bc9;
+	text-decoration: none
+}
+
+.box-bottom {
+	margin: 20px 0 20px 0;
+	float: left;
+	clear: both
+}
+
+.box-bottom .fl-sodo {
+	float: left;
+	width: 250px;
+}
+
+.box-bottom ul.box-news-bot {
+	float: left;
+	width: 692px;
+}
+
+.box-bottom ul.box-news-bot li {
+	float: left;
+	width: 320px;
+	margin-bottom: 12px;
+	margin-left: 20px;
+}
+
+.box-bottom ul.box-news-bot li img {
+	float: left;
+	border: 1px solid #ccc;
+	margin-right: 10px;
+	width: 91px;
+	height: 70px;
+}
+
+.box-bottom ul.box-news-bot li h2 {
+	text-decoration: none;
+	font-size: 12px;
+	font-weight: normal
+}
+
+.box-hpl {
+	width: 948px;
+	background: #820002;
+	overflow: hidden;
+	clear: both
+}
+
+.list-cmid {
+	float: left;
+	width: 286px;
+	padding: 22px;
+	border-right: 1px solid #000;
+	border-left: 1px solid #9d4b4c
+}
+
+.list-cmid h1 {
+	font-size: 12px;
+	text-transform: uppercase;
+	color: #ffe303
+}
+
+.list-cmid ul {
+	padding: 10px 0 0 12px;
+}
+
+.list-cmid ul li {
+	background: url("cong.gif" /*tpa=http://inthanhxuyen.com/data/css/images/cong.gif*/)
+		no-repeat 0 5px;
+	display: block;
+	padding: 5px 0 5px 20px;
+}
+
+.list-cmid ul li h2 {
+	font: 11px Verdana, Geneva, sans-serif;
+	padding: 0
+}
+
+.list-cmid ul li h2 a {
+	text-decoration: none;
+	color: #fff;
+}
+
+.list-cmid ul li h2 a:hover {
+	text-decoration: underline
+}
+
+.col-newscontent {
+	padding: 0 8px 16px 8px;
+	width: 98%;
+	float: left
+}
+
+.col-ctda {
+	padding: 0 8px 16px 8px;
+	width: 288px;
+	float: left
+}
+
+.stdo_img_news {
+	width: 120px;
+	height: 85px;
+	float: left;
+	margin: 6px 10px 6px 0;
+	border: 1px solid #999
+}
+
+.stdo_img_da {
+	width: 260px;
+	height: 135px;
+	margin: 6px 10px 6px 0;
+	padding: 2px;
+	border: 1px solid #999
+}
+
+.stdo_img_cm {
+	width: 92px;
+	height: 95px;
+	float: left;
+	margin: 0 12px 6px 0;
+	padding: 2px;
+	border: 1px solid #ccc;
+}
+
+.kgs_title_news {
+	padding: 1px 0 10px 0;
+	font-size: 12px;
+	font-weight: bold
+}
+
+.kgs_title_news a {
+	text-decoration: none;
+	color: #C00;
+	font-weight: bold;
+}
+
+.kgs_title_news a:hover {
+	text-decoration: underline
+}
+
+.stdo_content {
+	font-size: 12px;
+	color: #333;
+	line-height: 16px;
+	text-align: justify
+}
+
+.stdo_content_da {
+	font-size: 11px;
+	color: #343434;
+	line-height: 16px;
+	text-align: justify;
+}
+
+/* ^^^^phantrang^^ */
+.navigation {
+	color: #666;
+	width: 100%;
+	border-top: 1px solid #ccc;
+	line-height: 26px;
+	overflow: hidden;
+	clear: both;
+	text-align: right;
+	padding: 10px 0 12px 0;
+	margin-right: 12px;
+}
+
+.navigation a:link,.navigation a:visited,.navigation a:hover,.navigation a:active
+	{
+	text-decoration: none;
+	color: #fff;
+	line-height: 26px;
+	background: #CCC;
+	border: 1px solid #6a6666;
+	padding: 3px 8px;
+	margin-right: 2px;
+}
+
+.navigation a:hover {
+	background: #fff;
+	color: #000;
+	border: 1px solid #6a6666;
+}
+
+.navigation span {
+	text-decoration: none;
+	background: #000;
+	color: #000;
+	margin-right: 2px;
+	padding: 3px 8px;
+	border: 1px solid #000;
+	color: #fff;
+}
+
+.read-more {
+	background: url("view.jpg" /*tpa=http://inthanhxuyen.com/data/css/images/view.jpg*/)
+		no-repeat;
+	float: right;
+	width: 78px;
+	height: 14px;
+}
+
+.read-more a {
+	font: 11px Tahoma;
+	color: #ce3107;
+	text-decoration: none;
+	padding-left: 5px;
+}
+
+.read-more a:hover {
+	text-decoration: underline
+}
+
+.xemtiep {
+	float: right;
+	padding: 5px;
+}
+
+.xemtiep a {
+	font: 11px tahoma;
+	color: #b80002;
+	text-decoration: none
+}
+
+.xemtiep a:hover {
+	text-decoration: underline
+}
+
+.col-contact {
+	width: 500px;
+	margin: 0 auto;
+	margin-bottom: 16px;
+}
+
+.stdo_contact {
+	margin: 0 auto;
+	width: 500px;
+	font: 12px Arial, Helvetica, sans-serif;
+	color: #333;
+	padding: 0 0 18px 0;
+	line-height: 18px;
+	text-align: justify;
+}
+
+p.title-company {
+	font: bold 15px Arial, Helvetica, sans-serif;
+	color: #333;
+	padding: 20px 0 5px 0;
+	text-transform: uppercase
+}
+
+.col-table {
+	margin: 0 auto;
+	width: 500px;
+	font: 12px Arial, Helvetica, sans-serif;
+	color: #333;
+	padding-top: 12px
+}
+
+.input_text {
+	font-family: Tahoma, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	padding-left: 4px;
+	border: #333 1px solid;
+	background: #ccc;
+	height: 16px;
+	width: 292px;
+	margin-top: 6px;
+}
+
+.input_text2 {
+	font-family: Tahoma, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	padding-left: 4px;
+	border: #333 1px solid;
+	background: #ccc;
+	height: 16px;
+	width: 100px;
+	margin-top: 6px;
+}
+
+.textarea {
+	margin-top: 6px;
+	font-family: Tahoma, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	border: #333 1px solid;
+	background: #ccc;
+	height: 100px;
+	width: 300px;
+}
+
+.button_login {
+	background: #666;
+	-moz-border-radius: 5px;
+	width: 56px;
+	margin: 6px 2px 0 0;
+	height: 18px;
+	font: 11px Arial, Helvetica, sans-serif;
+	border: #333 1px solid;
+	color: #ccc;
+}
+
+.cold_field_detail {
+	float: left;
+	width: 100%;
+	background: #fff;
+	display: inline;
+	border-bottom: 1px dotted #bfbfbf;
+}
+
+.kgs_pro_detail {
+	padding: 13px 2px 21px 14px;
+	width: 96%
+}
+
+.kgs_title_da {
+	text-decoration: none;
+	color: #D8261C;
+	font: bold 16px Arial, Helvetica, sans-serif;
+	margin: 10px 0 5px 0;
+}
+
+.stdo_nd_sp {
+	padding: 12px;
+	font-size: 12px;
+	color: #333;
+	line-height: 1.6em;
+	text-align: justify;
+}
+
+.stdo_img_pro {
+	float: left;
+	width: auto;
+	margin: 0 12px 0 0;
+	padding: 2px;
+	border: 0;
+	background: #FFF;
+	overflow: hidden
+}
+
+p.stdo_content_pr {
+	font-size: 12px;
+	color: #333;
+	padding: 4px 0 0 0;
+	line-height: 1.6em;
+	text-align: justify;
+}
+
+p.view-title-da {
+	padding: 8px 0 8px 0;
+	font: bold 15px Arial, Helvetica, sans-serif;
+	clear: both
+}
+
+.c-adversting {
+	clear: both
+}
+
+.c-adversting img {
+	clear: both;
+	border: none;
+	margin-top: 20px
+}
+
+.c-news-id {
+	padding: 10px;
+	clear: both
+}
+
+.c-news-id  h1 {
+	background: url("bg-news.jpg"
+		/*tpa=http://inthanhxuyen.com/data/css/images/bg-news.jpg*/) no-repeat;
+	font: bold 11px Arial;
+	line-height: 29px;
+	padding-left: 24px;
+	text-transform: uppercase;
+	color: #f57100;
+}
+
+.c-news-id  h1 a {
+	color: #000;
+	text-decoration: none;
+}
+
+.c-news-id  h1 a:hover {
+	text-decoration: underline
+}
+
+.c-news-id  ul.new-cm {
+	padding: 6px;
+	clear: both
+}
+
+.c-news-id  ul.new-cm li {
+	list-style: none;
+	width: 100%;
+	float: left;
+	padding: 6px 0 18px 0;
+}
+
+.c-news-id  ul.new-cm li img {
+	float: left;
+	width: 166px;
+	height: 128px;
+	padding: 2px;
+	border: 1px solid #ccc;
+	margin-right: 12px;
+}
+
+.c-news-id  ul.new-cm li h3 {
+	padding-bottom: 10px;
+}
+
+.c-news-id  ul.new-cm li h2 a {
+	font-size: 12px;
+	color: #1E7BC9;
+	text-decoration: none;
+}
+
+.new-cm li h2 {
+	background: none;
+}
+
+.new-cm li h2 a {
+	font-size: 12px;
+	color: #1E7BC9;
+	text-decoration: none;
+}
+
+.c-news-id  ul.new-cm li h2 a:hover {
+	text-decoration: underline
+}
+
+.c-news-id  ul.new-cm li span.date {
+	color: #b1b1b1;
+	font-size: 11px;
+	padding-bottom: 8px;
+}
+
+.c-news-id  ul.new-cm li p.content {
+	color: #000;
+	padding: 5px 0 8px 0;
+	text-align: justify
+}
+
+.c-news-id  ul.new-cm li p.view {
+	float: right;
+}
+
+.c-news-id  ul.new-cm li p.view a {
+	font: 11px tahoma;
+	color: #CC0000;
+	text-decoration: none;
+}
+
+.c-news-id  ul.new-cm li p.view a:hover {
+	text-decoration: underline
+}
+
+.side_content {
+	margin: 0 auto;
+	padding-bottom: 4px;
+	overflow: hidden;
+	width: 168px;
+	padding: 0 0 5px 0
+}
+
+.HGold {
+	width: 163px;
+	padding-right: 8px;
+}
+
+.HBorder {
+	width: 2px;
+}
+
+.HRate {
+	width: 146px;
+	padding-left: 8px;
+}
+
+.forex-rate {
+	height: 58px;
+	overflow: scroll;
+	overflow-x: hidden;
+}
+
+.gold-price {
+	margin: 2px 0px;
+	padding: 0px;
+	width: 100%;
+}
+
+.forex-rate {
+	margin: 5px 0px;
+	padding: 0px;
+	width: 100%;
+}
+
+.td-weather-title {
+	width: 70px;
+	background-color: #fff;
+}
+
+.td-weather-data {
+	background-color: #fff;
+}
+
+.WGChart {
+	width: 17px;
+	height: 15px;
+	background: url("WeatherGold.gif"
+		/*tpa=http://inthanhxuyen.com/data/css/images/WeatherGold.gif*/)
+		no-repeat 0 0 #FFF;
+	overflow: hidden;
+}
+
+.WGGold {
+	width: 14px;
+	height: 14px;
+	background: url("WeatherGold.gif"
+		/*tpa=http://inthanhxuyen.com/data/css/images/WeatherGold.gif*/)
+		no-repeat -18px 0px;
+	overflow: hidden;
+}
+
+.tbl-goldprice,.tbl-weather {
+	background-color: #a8a8a8;
+	font: 11px arial;
+}
+
+.tbl-weather {
+	width: 150px;
+}
+
+.link-folder {
+	font: bold 12px arial;
+	color: #8a0000;
+	text-decoration: none;
+}
+
+.content h1 {
+	background: none;
+}
+
+.dpl {
+	width: 155px;
+}
+
+.titleAdmin {
+	text-align: center;
+	font-size: 35px;
+	margin-bottom: 100px;
+	font-weight: bold;
+	color: red;
+}
+
+.adminPages .row {
+	margin: 15px;
+}
+
+.adminPages .row label {
+	width: 100px;
+	display: inline-block;
+}

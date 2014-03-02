@@ -1,0 +1,1621 @@
+2014/02/13 08:49:52 [error] [php] date(): It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected the timezone 'UTC' for now, but please set date.timezone to select your timezone. (/var/www/mrPha/Print/protected/views/layouts/main.php:51)
+Stack trace:
+#0 /var/www/mrPha/framework/web/CBaseController.php(95): SiteController->renderInternal()
+#1 /var/www/mrPha/framework/web/widgets/CContentDecorator.php(76): SiteController->renderFile()
+#2 /var/www/mrPha/framework/web/widgets/CContentDecorator.php(54): CContentDecorator->decorate()
+#3 /var/www/mrPha/framework/web/widgets/COutputProcessor.php(44): CContentDecorator->processOutput()
+#4 /var/www/mrPha/framework/web/CBaseController.php(206): CContentDecorator->run()
+#5 /var/www/mrPha/framework/web/CBaseController.php(300): SiteController->endWidget()
+#6 /var/www/mrPha/Print/protected/views/layouts/column1.php(6): SiteController->endContent()
+#7 /var/www/mrPha/framework/web/CBaseController.php(126): require()
+#8 /var/www/mrPha/framework/web/CBaseController.php(95): SiteController->renderInternal()
+#9 /var/www/mrPha/framework/web/CController.php(784): SiteController->renderFile()
+#10 /var/www/mrPha/Print/protected/controllers/SiteController.php(32): SiteController->render()
+#11 /var/www/mrPha/framework/web/actions/CInlineAction.php(49): SiteController->actionIndex()
+#12 /var/www/mrPha/framework/web/CController.php(308): CInlineAction->runWithParams()
+#13 /var/www/mrPha/framework/web/CController.php(286): SiteController->runAction()
+#14 /var/www/mrPha/framework/web/CController.php(265): SiteController->runActionWithFilters()
+#15 /var/www/mrPha/framework/web/CWebApplication.php(282): SiteController->run()
+#16 /var/www/mrPha/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#17 /var/www/mrPha/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#18 /var/www/mrPha/Print/index.php(13): CWebApplication->run()
+REQUEST_URI=/mrPha/Print/
+in /var/www/mrPha/Print/protected/views/layouts/main.php (51)
+in /var/www/mrPha/Print/protected/views/layouts/column1.php (6)
+in /var/www/mrPha/Print/protected/controllers/SiteController.php (32)
+2014/02/13 08:53:52 [error] [php] date(): It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected the timezone 'UTC' for now, but please set date.timezone to select your timezone. (/var/www/mrPha/Print/protected/views/layouts/main.php:51)
+Stack trace:
+#0 /var/www/mrPha/framework/web/CBaseController.php(95): SiteController->renderInternal()
+#1 /var/www/mrPha/framework/web/widgets/CContentDecorator.php(76): SiteController->renderFile()
+#2 /var/www/mrPha/framework/web/widgets/CContentDecorator.php(54): CContentDecorator->decorate()
+#3 /var/www/mrPha/framework/web/widgets/COutputProcessor.php(44): CContentDecorator->processOutput()
+#4 /var/www/mrPha/framework/web/CBaseController.php(206): CContentDecorator->run()
+#5 /var/www/mrPha/framework/web/CBaseController.php(300): SiteController->endWidget()
+#6 /var/www/mrPha/Print/protected/views/layouts/column1.php(6): SiteController->endContent()
+#7 /var/www/mrPha/framework/web/CBaseController.php(126): require()
+#8 /var/www/mrPha/framework/web/CBaseController.php(95): SiteController->renderInternal()
+#9 /var/www/mrPha/framework/web/CController.php(784): SiteController->renderFile()
+#10 /var/www/mrPha/Print/protected/controllers/SiteController.php(32): SiteController->render()
+#11 /var/www/mrPha/framework/web/actions/CInlineAction.php(49): SiteController->actionIndex()
+#12 /var/www/mrPha/framework/web/CController.php(308): CInlineAction->runWithParams()
+#13 /var/www/mrPha/framework/web/CController.php(286): SiteController->runAction()
+#14 /var/www/mrPha/framework/web/CController.php(265): SiteController->runActionWithFilters()
+#15 /var/www/mrPha/framework/web/CWebApplication.php(282): SiteController->run()
+#16 /var/www/mrPha/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#17 /var/www/mrPha/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#18 /var/www/mrPha/Print/index.php(13): CWebApplication->run()
+REQUEST_URI=/mrPha/Print/
+in /var/www/mrPha/Print/protected/views/layouts/main.php (51)
+in /var/www/mrPha/Print/protected/views/layouts/column1.php (6)
+in /var/www/mrPha/Print/protected/controllers/SiteController.php (32)
+2014/02/13 08:58:13 [error] [php] date(): It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected the timezone 'UTC' for now, but please set date.timezone to select your timezone. (/var/www/mrPha/Print/protected/views/layouts/main.php:51)
+Stack trace:
+#0 /var/www/mrPha/framework/web/CBaseController.php(95): SiteController->renderInternal()
+#1 /var/www/mrPha/framework/web/widgets/CContentDecorator.php(76): SiteController->renderFile()
+#2 /var/www/mrPha/framework/web/widgets/CContentDecorator.php(54): CContentDecorator->decorate()
+#3 /var/www/mrPha/framework/web/widgets/COutputProcessor.php(44): CContentDecorator->processOutput()
+#4 /var/www/mrPha/framework/web/CBaseController.php(206): CContentDecorator->run()
+#5 /var/www/mrPha/framework/web/CBaseController.php(300): SiteController->endWidget()
+#6 /var/www/mrPha/Print/protected/views/layouts/column1.php(6): SiteController->endContent()
+#7 /var/www/mrPha/framework/web/CBaseController.php(126): require()
+#8 /var/www/mrPha/framework/web/CBaseController.php(95): SiteController->renderInternal()
+#9 /var/www/mrPha/framework/web/CController.php(784): SiteController->renderFile()
+#10 /var/www/mrPha/Print/protected/controllers/SiteController.php(32): SiteController->render()
+#11 /var/www/mrPha/framework/web/actions/CInlineAction.php(49): SiteController->actionIndex()
+#12 /var/www/mrPha/framework/web/CController.php(308): CInlineAction->runWithParams()
+#13 /var/www/mrPha/framework/web/CController.php(286): SiteController->runAction()
+#14 /var/www/mrPha/framework/web/CController.php(265): SiteController->runActionWithFilters()
+#15 /var/www/mrPha/framework/web/CWebApplication.php(282): SiteController->run()
+#16 /var/www/mrPha/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#17 /var/www/mrPha/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#18 /var/www/mrPha/Print/index.php(13): CWebApplication->run()
+REQUEST_URI=/mrPha/Print/
+in /var/www/mrPha/Print/protected/views/layouts/main.php (51)
+in /var/www/mrPha/Print/protected/views/layouts/column1.php (6)
+in /var/www/mrPha/Print/protected/controllers/SiteController.php (32)
+2014/02/14 09:50:25 [error] [php] date(): It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected the timezone 'UTC' for now, but please set date.timezone to select your timezone. (/var/www/mrPha/Print/protected/views/layouts/main.php:51)
+Stack trace:
+#0 /var/www/mrPha/framework/web/CBaseController.php(95): SiteController->renderInternal()
+#1 /var/www/mrPha/framework/web/widgets/CContentDecorator.php(76): SiteController->renderFile()
+#2 /var/www/mrPha/framework/web/widgets/CContentDecorator.php(54): CContentDecorator->decorate()
+#3 /var/www/mrPha/framework/web/widgets/COutputProcessor.php(44): CContentDecorator->processOutput()
+#4 /var/www/mrPha/framework/web/CBaseController.php(206): CContentDecorator->run()
+#5 /var/www/mrPha/framework/web/CBaseController.php(300): SiteController->endWidget()
+#6 /var/www/mrPha/Print/protected/views/layouts/column1.php(6): SiteController->endContent()
+#7 /var/www/mrPha/framework/web/CBaseController.php(126): require()
+#8 /var/www/mrPha/framework/web/CBaseController.php(95): SiteController->renderInternal()
+#9 /var/www/mrPha/framework/web/CController.php(784): SiteController->renderFile()
+#10 /var/www/mrPha/Print/protected/controllers/SiteController.php(32): SiteController->render()
+#11 /var/www/mrPha/framework/web/actions/CInlineAction.php(49): SiteController->actionIndex()
+#12 /var/www/mrPha/framework/web/CController.php(308): CInlineAction->runWithParams()
+#13 /var/www/mrPha/framework/web/CController.php(286): SiteController->runAction()
+#14 /var/www/mrPha/framework/web/CController.php(265): SiteController->runActionWithFilters()
+#15 /var/www/mrPha/framework/web/CWebApplication.php(282): SiteController->run()
+#16 /var/www/mrPha/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#17 /var/www/mrPha/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#18 /var/www/mrPha/Print/index.php(13): CWebApplication->run()
+REQUEST_URI=/mrPha/Print/
+in /var/www/mrPha/Print/protected/views/layouts/main.php (51)
+in /var/www/mrPha/Print/protected/views/layouts/column1.php (6)
+in /var/www/mrPha/Print/protected/controllers/SiteController.php (32)
+2014/02/15 01:21:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "Test".' in D:\WORKING\CODE\mrPha\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\WORKING\CODE\mrPha\framework\web\CWebApplication.php(141): CWebApplication->runController('Test')
+#1 D:\WORKING\CODE\mrPha\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\WORKING\CODE\mrPha\Print\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/mrPha/Print/index.php?r=Test
+---
+2014/02/15 01:21:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "Admin".' in D:\WORKING\CODE\mrPha\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\WORKING\CODE\mrPha\framework\web\CWebApplication.php(141): CWebApplication->runController('Admin')
+#1 D:\WORKING\CODE\mrPha\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\WORKING\CODE\mrPha\Print\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/mrPha/Print/index.php?r=Admin
+---
+2014/02/15 01:22:46 [error] [exception.CException] exception 'CException' with message 'CAssetManager.basePath "D:\WORKING\CODE\mrPha\Print\assets" is invalid. Please make sure the directory exists and is writable by the Web server process.' in D:\WORKING\CODE\mrPha\framework\web\CAssetManager.php:138
+Stack trace:
+#0 D:\WORKING\CODE\mrPha\framework\web\CAssetManager.php(123): CAssetManager->setBasePath('D:\WORKING\CODE...')
+#1 D:\WORKING\CODE\mrPha\framework\web\CAssetManager.php(217): CAssetManager->getBasePath()
+#2 D:\WORKING\CODE\mrPha\framework\web\CClientScript.php(510): CAssetManager->publish('D:\WORKING\CODE...')
+#3 D:\WORKING\CODE\mrPha\framework\web\CClientScript.php(547): CClientScript->getCoreScriptUrl()
+#4 D:\WORKING\CODE\mrPha\framework\web\CClientScript.php(348): CClientScript->getPackageBaseUrl('jquery')
+#5 D:\WORKING\CODE\mrPha\framework\web\CClientScript.php(208): CClientScript->renderCoreScripts()
+#6 D:\WORKING\CODE\mrPha\framework\web\CController.php(351): CClientScript->render('<script type="t...')
+#7 D:\WORKING\CODE\mrPha\framework\web\CController.php(788): CController->processOutput('<script type="t...')
+#8 D:\WORKING\CODE\mrPha\Print\protected\controllers\SiteController.php(72): CController->render('contact', Array)
+#9 D:\WORKING\CODE\mrPha\framework\web\actions\CInlineAction.php(49): SiteController->actionContact()
+#10 D:\WORKING\CODE\mrPha\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#11 D:\WORKING\CODE\mrPha\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#12 D:\WORKING\CODE\mrPha\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 D:\WORKING\CODE\mrPha\framework\web\CWebApplication.php(282): CController->run('Contact')
+#14 D:\WORKING\CODE\mrPha\framework\web\CWebApplication.php(141): CWebApplication->runController('Site/Contact')
+#15 D:\WORKING\CODE\mrPha\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#16 D:\WORKING\CODE\mrPha\Print\index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/mrPha/Print/index.php?r=Site/Contact
+---
+2014/02/15 01:23:21 [error] [exception.CException] exception 'CException' with message 'CAssetManager.basePath "D:\WORKING\CODE\mrPha\Print\assets" is invalid. Please make sure the directory exists and is writable by the Web server process.' in D:\WORKING\CODE\mrPha\framework\web\CAssetManager.php:138
+Stack trace:
+#0 D:\WORKING\CODE\mrPha\framework\web\CAssetManager.php(123): CAssetManager->setBasePath('D:\WORKING\CODE...')
+#1 D:\WORKING\CODE\mrPha\framework\web\CAssetManager.php(217): CAssetManager->getBasePath()
+#2 D:\WORKING\CODE\mrPha\framework\web\CClientScript.php(510): CAssetManager->publish('D:\WORKING\CODE...')
+#3 D:\WORKING\CODE\mrPha\framework\web\CClientScript.php(547): CClientScript->getCoreScriptUrl()
+#4 D:\WORKING\CODE\mrPha\framework\web\CClientScript.php(348): CClientScript->getPackageBaseUrl('jquery')
+#5 D:\WORKING\CODE\mrPha\framework\web\CClientScript.php(208): CClientScript->renderCoreScripts()
+#6 D:\WORKING\CODE\mrPha\framework\web\CController.php(351): CClientScript->render('<script type="t...')
+#7 D:\WORKING\CODE\mrPha\framework\web\CController.php(788): CController->processOutput('<script type="t...')
+#8 D:\WORKING\CODE\mrPha\Print\protected\controllers\SiteController.php(72): CController->render('contact', Array)
+#9 D:\WORKING\CODE\mrPha\framework\web\actions\CInlineAction.php(49): SiteController->actionContact()
+#10 D:\WORKING\CODE\mrPha\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#11 D:\WORKING\CODE\mrPha\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#12 D:\WORKING\CODE\mrPha\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 D:\WORKING\CODE\mrPha\framework\web\CWebApplication.php(282): CController->run('Contact')
+#14 D:\WORKING\CODE\mrPha\framework\web\CWebApplication.php(141): CWebApplication->runController('Site/Contact')
+#15 D:\WORKING\CODE\mrPha\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#16 D:\WORKING\CODE\mrPha\Print\index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/mrPha/Print/index.php?r=Site/Contact
+---
+2014/02/15 04:50:01 [error] [exception.CException] exception 'CException' with message 'SiteController cannot find the requested view "/site/home1".' in D:\WORKING\CODE\mrPha\framework\web\CController.php:878
+Stack trace:
+#0 D:\WORKING\CODE\mrPha\framework\web\CController.php(782): CController->renderPartial('/site/home1', Array, true)
+#1 D:\WORKING\CODE\mrPha\Print\protected\controllers\SiteController.php(32): CController->render('/site/home1', Array)
+#2 D:\WORKING\CODE\mrPha\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#3 D:\WORKING\CODE\mrPha\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 D:\WORKING\CODE\mrPha\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 D:\WORKING\CODE\mrPha\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 D:\WORKING\CODE\mrPha\framework\web\CWebApplication.php(282): CController->run('')
+#7 D:\WORKING\CODE\mrPha\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#8 D:\WORKING\CODE\mrPha\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#9 D:\WORKING\CODE\mrPha\Print\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/mrPha/Print/site/Contact
+---
+2014/02/15 05:11:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "r=Site/login".' in D:\WORKING\CODE\mrPha\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\WORKING\CODE\mrPha\framework\web\CWebApplication.php(141): CWebApplication->runController('r=Site/login')
+#1 D:\WORKING\CODE\mrPha\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\WORKING\CODE\mrPha\Print\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/mrPha/Print/r=Site/login
+---
+2014/02/15 05:13:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "ma chu vang bac dong so sach.jpg".' in D:\WORKING\CODE\mrPha\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\WORKING\CODE\mrPha\framework\web\CWebApplication.php(141): CWebApplication->runController('ma chu vang bac...')
+#1 D:\WORKING\CODE\mrPha\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\WORKING\CODE\mrPha\Print\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/mrPha/Print/ma%20chu%20vang%20bac%20dong%20so%20sach.jpg
+HTTP_REFERER=http://localhost/mrPha/Print/
+---
+2014/02/15 05:13:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "name card.jpg".' in D:\WORKING\CODE\mrPha\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\WORKING\CODE\mrPha\framework\web\CWebApplication.php(141): CWebApplication->runController('name card.jpg')
+#1 D:\WORKING\CODE\mrPha\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\WORKING\CODE\mrPha\Print\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/mrPha/Print/name%20card.jpg
+HTTP_REFERER=http://localhost/mrPha/Print/
+---
+2014/02/15 05:13:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "Can mang moi.jpg".' in D:\WORKING\CODE\mrPha\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\WORKING\CODE\mrPha\framework\web\CWebApplication.php(141): CWebApplication->runController('Can mang moi.jp...')
+#1 D:\WORKING\CODE\mrPha\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\WORKING\CODE\mrPha\Print\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/mrPha/Print/Can%20mang%20moi.jpg
+HTTP_REFERER=http://localhost/mrPha/Print/
+---
+2014/02/15 05:13:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "in lazer mau.jpg".' in D:\WORKING\CODE\mrPha\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\WORKING\CODE\mrPha\framework\web\CWebApplication.php(141): CWebApplication->runController('in lazer mau.jp...')
+#1 D:\WORKING\CODE\mrPha\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\WORKING\CODE\mrPha\Print\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/mrPha/Print/in%20lazer%20mau.jpg
+HTTP_REFERER=http://localhost/mrPha/Print/
+---
+2014/02/15 05:13:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "pho to kho A0-A4.jpg".' in D:\WORKING\CODE\mrPha\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\WORKING\CODE\mrPha\framework\web\CWebApplication.php(141): CWebApplication->runController('pho to kho A0-A...')
+#1 D:\WORKING\CODE\mrPha\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\WORKING\CODE\mrPha\Print\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/mrPha/Print/pho%20to%20kho%20A0-A4.jpg
+HTTP_REFERER=http://localhost/mrPha/Print/
+---
+2014/02/15 05:13:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "in offset.jpg".' in D:\WORKING\CODE\mrPha\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\WORKING\CODE\mrPha\framework\web\CWebApplication.php(141): CWebApplication->runController('in offset.jpg')
+#1 D:\WORKING\CODE\mrPha\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\WORKING\CODE\mrPha\Print\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/mrPha/Print/in%20offset.jpg
+HTTP_REFERER=http://localhost/mrPha/Print/
+---
+2014/02/15 05:13:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "chinh sua luan van luan an.jpg".' in D:\WORKING\CODE\mrPha\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\WORKING\CODE\mrPha\framework\web\CWebApplication.php(141): CWebApplication->runController('chinh sua luan ...')
+#1 D:\WORKING\CODE\mrPha\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\WORKING\CODE\mrPha\Print\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/mrPha/Print/chinh%20sua%20luan%20van%20luan%20an.jpg
+HTTP_REFERER=http://localhost/mrPha/Print/
+---
+2014/02/15 05:13:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "online-u=inthanhxuyen1&m=g&t=1&l=us.gif".' in D:\WORKING\CODE\mrPha\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\WORKING\CODE\mrPha\framework\web\CWebApplication.php(141): CWebApplication->runController('online-u=inthan...')
+#1 D:\WORKING\CODE\mrPha\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\WORKING\CODE\mrPha\Print\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/mrPha/Print/online-u=inthanhxuyen1&m=g&t=1&l=us.gif
+HTTP_REFERER=http://localhost/mrPha/Print/
+---
+2014/02/15 05:13:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "In Mau Kho A0-A4.jpg".' in D:\WORKING\CODE\mrPha\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\WORKING\CODE\mrPha\framework\web\CWebApplication.php(141): CWebApplication->runController('In Mau Kho A0-A...')
+#1 D:\WORKING\CODE\mrPha\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\WORKING\CODE\mrPha\Print\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/mrPha/Print/In%20Mau%20Kho%20A0-A4.jpg
+HTTP_REFERER=http://localhost/mrPha/Print/
+---
+2014/02/15 05:13:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "in luan van luan an van ban.jpg".' in D:\WORKING\CODE\mrPha\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\WORKING\CODE\mrPha\framework\web\CWebApplication.php(141): CWebApplication->runController('in luan van lua...')
+#1 D:\WORKING\CODE\mrPha\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\WORKING\CODE\mrPha\Print\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/mrPha/Print/in%20luan%20van%20luan%20an%20van%20ban.jpg
+HTTP_REFERER=http://localhost/mrPha/Print/
+---
+2014/02/15 05:13:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "thiet ke quang cao.jpg".' in D:\WORKING\CODE\mrPha\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\WORKING\CODE\mrPha\framework\web\CWebApplication.php(141): CWebApplication->runController('thiet ke quang ...')
+#1 D:\WORKING\CODE\mrPha\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\WORKING\CODE\mrPha\Print\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/mrPha/Print/thiet%20ke%20quang%20cao.jpg
+HTTP_REFERER=http://localhost/mrPha/Print/
+---
+2014/02/15 05:13:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "in bai du thi ky yeu menu.jpg".' in D:\WORKING\CODE\mrPha\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\WORKING\CODE\mrPha\framework\web\CWebApplication.php(141): CWebApplication->runController('in bai du thi k...')
+#1 D:\WORKING\CODE\mrPha\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\WORKING\CODE\mrPha\Print\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/mrPha/Print/in%20bai%20du%20thi%20ky%20yeu%20menu.jpg
+HTTP_REFERER=http://localhost/mrPha/Print/
+---
+2014/02/15 05:13:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "can ep A0 - A4.jpg".' in D:\WORKING\CODE\mrPha\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\WORKING\CODE\mrPha\framework\web\CWebApplication.php(141): CWebApplication->runController('can ep A0 - A4....')
+#1 D:\WORKING\CODE\mrPha\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\WORKING\CODE\mrPha\Print\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/mrPha/Print/can%20ep%20A0%20-%20A4.jpg
+HTTP_REFERER=http://localhost/mrPha/Print/
+---
+2014/02/15 05:13:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "cung cap may gia cong.jpg".' in D:\WORKING\CODE\mrPha\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\WORKING\CODE\mrPha\framework\web\CWebApplication.php(141): CWebApplication->runController('cung cap may gi...')
+#1 D:\WORKING\CODE\mrPha\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\WORKING\CODE\mrPha\Print\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/mrPha/Print/cung%20cap%20may%20gia%20cong.jpg
+HTTP_REFERER=http://localhost/mrPha/Print/
+---
+2014/02/15 05:13:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "cung cap giay muc nganh in.jpg".' in D:\WORKING\CODE\mrPha\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\WORKING\CODE\mrPha\framework\web\CWebApplication.php(141): CWebApplication->runController('cung cap giay m...')
+#1 D:\WORKING\CODE\mrPha\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\WORKING\CODE\mrPha\Print\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/mrPha/Print/cung%20cap%20giay%20muc%20nganh%20in.jpg
+HTTP_REFERER=http://localhost/mrPha/Print/
+---
+2014/02/15 05:13:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "online-u=inthanhxuyen&m=g&t=1&l=us.gif".' in D:\WORKING\CODE\mrPha\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\WORKING\CODE\mrPha\framework\web\CWebApplication.php(141): CWebApplication->runController('online-u=inthan...')
+#1 D:\WORKING\CODE\mrPha\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\WORKING\CODE\mrPha\Print\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/mrPha/Print/online-u=inthanhxuyen&m=g&t=1&l=us.gif
+HTTP_REFERER=http://localhost/mrPha/Print/
+---
+2014/02/15 05:18:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "in lazer mau.jpg".' in D:\WORKING\CODE\mrPha\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\WORKING\CODE\mrPha\framework\web\CWebApplication.php(141): CWebApplication->runController('in lazer mau.jp...')
+#1 D:\WORKING\CODE\mrPha\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\WORKING\CODE\mrPha\Print\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/mrPha/Print/in%20lazer%20mau.jpg
+HTTP_REFERER=http://localhost/mrPha/Print/
+---
+2014/02/15 05:18:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "Can mang moi.jpg".' in D:\WORKING\CODE\mrPha\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\WORKING\CODE\mrPha\framework\web\CWebApplication.php(141): CWebApplication->runController('Can mang moi.jp...')
+#1 D:\WORKING\CODE\mrPha\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\WORKING\CODE\mrPha\Print\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/mrPha/Print/Can%20mang%20moi.jpg
+HTTP_REFERER=http://localhost/mrPha/Print/
+---
+2014/02/15 05:18:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "name card.jpg".' in D:\WORKING\CODE\mrPha\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\WORKING\CODE\mrPha\framework\web\CWebApplication.php(141): CWebApplication->runController('name card.jpg')
+#1 D:\WORKING\CODE\mrPha\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\WORKING\CODE\mrPha\Print\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/mrPha/Print/name%20card.jpg
+HTTP_REFERER=http://localhost/mrPha/Print/
+---
+2014/02/15 05:18:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "chinh sua luan van luan an.jpg".' in D:\WORKING\CODE\mrPha\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\WORKING\CODE\mrPha\framework\web\CWebApplication.php(141): CWebApplication->runController('chinh sua luan ...')
+#1 D:\WORKING\CODE\mrPha\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\WORKING\CODE\mrPha\Print\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/mrPha/Print/chinh%20sua%20luan%20van%20luan%20an.jpg
+HTTP_REFERER=http://localhost/mrPha/Print/
+---
+2014/02/15 05:18:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "pho to kho A0-A4.jpg".' in D:\WORKING\CODE\mrPha\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\WORKING\CODE\mrPha\framework\web\CWebApplication.php(141): CWebApplication->runController('pho to kho A0-A...')
+#1 D:\WORKING\CODE\mrPha\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\WORKING\CODE\mrPha\Print\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/mrPha/Print/pho%20to%20kho%20A0-A4.jpg
+HTTP_REFERER=http://localhost/mrPha/Print/
+---
+2014/02/15 05:18:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "in luan van luan an van ban.jpg".' in D:\WORKING\CODE\mrPha\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\WORKING\CODE\mrPha\framework\web\CWebApplication.php(141): CWebApplication->runController('in luan van lua...')
+#1 D:\WORKING\CODE\mrPha\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\WORKING\CODE\mrPha\Print\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/mrPha/Print/in%20luan%20van%20luan%20an%20van%20ban.jpg
+HTTP_REFERER=http://localhost/mrPha/Print/
+---
+2014/02/15 05:18:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "in bai du thi ky yeu menu.jpg".' in D:\WORKING\CODE\mrPha\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\WORKING\CODE\mrPha\framework\web\CWebApplication.php(141): CWebApplication->runController('in bai du thi k...')
+#1 D:\WORKING\CODE\mrPha\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\WORKING\CODE\mrPha\Print\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/mrPha/Print/in%20bai%20du%20thi%20ky%20yeu%20menu.jpg
+HTTP_REFERER=http://localhost/mrPha/Print/
+---
+2014/02/15 05:18:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "ma chu vang bac dong so sach.jpg".' in D:\WORKING\CODE\mrPha\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\WORKING\CODE\mrPha\framework\web\CWebApplication.php(141): CWebApplication->runController('ma chu vang bac...')
+#1 D:\WORKING\CODE\mrPha\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\WORKING\CODE\mrPha\Print\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/mrPha/Print/ma%20chu%20vang%20bac%20dong%20so%20sach.jpg
+HTTP_REFERER=http://localhost/mrPha/Print/
+---
+2014/02/15 05:18:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "can ep A0 - A4.jpg".' in D:\WORKING\CODE\mrPha\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\WORKING\CODE\mrPha\framework\web\CWebApplication.php(141): CWebApplication->runController('can ep A0 - A4....')
+#1 D:\WORKING\CODE\mrPha\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\WORKING\CODE\mrPha\Print\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/mrPha/Print/can%20ep%20A0%20-%20A4.jpg
+HTTP_REFERER=http://localhost/mrPha/Print/
+---
+2014/02/15 05:18:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "thiet ke quang cao.jpg".' in D:\WORKING\CODE\mrPha\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\WORKING\CODE\mrPha\framework\web\CWebApplication.php(141): CWebApplication->runController('thiet ke quang ...')
+#1 D:\WORKING\CODE\mrPha\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\WORKING\CODE\mrPha\Print\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/mrPha/Print/thiet%20ke%20quang%20cao.jpg
+HTTP_REFERER=http://localhost/mrPha/Print/
+---
+2014/02/15 05:18:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "cung cap may gia cong.jpg".' in D:\WORKING\CODE\mrPha\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\WORKING\CODE\mrPha\framework\web\CWebApplication.php(141): CWebApplication->runController('cung cap may gi...')
+#1 D:\WORKING\CODE\mrPha\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\WORKING\CODE\mrPha\Print\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/mrPha/Print/cung%20cap%20may%20gia%20cong.jpg
+HTTP_REFERER=http://localhost/mrPha/Print/
+---
+2014/02/15 05:18:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "in offset.jpg".' in D:\WORKING\CODE\mrPha\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\WORKING\CODE\mrPha\framework\web\CWebApplication.php(141): CWebApplication->runController('in offset.jpg')
+#1 D:\WORKING\CODE\mrPha\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\WORKING\CODE\mrPha\Print\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/mrPha/Print/in%20offset.jpg
+HTTP_REFERER=http://localhost/mrPha/Print/
+---
+2014/02/15 05:18:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "cung cap giay muc nganh in.jpg".' in D:\WORKING\CODE\mrPha\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\WORKING\CODE\mrPha\framework\web\CWebApplication.php(141): CWebApplication->runController('cung cap giay m...')
+#1 D:\WORKING\CODE\mrPha\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\WORKING\CODE\mrPha\Print\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/mrPha/Print/cung%20cap%20giay%20muc%20nganh%20in.jpg
+HTTP_REFERER=http://localhost/mrPha/Print/
+---
+2014/02/15 05:18:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "online-u=inthanhxuyen&m=g&t=1&l=us.gif".' in D:\WORKING\CODE\mrPha\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\WORKING\CODE\mrPha\framework\web\CWebApplication.php(141): CWebApplication->runController('online-u=inthan...')
+#1 D:\WORKING\CODE\mrPha\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\WORKING\CODE\mrPha\Print\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/mrPha/Print/online-u=inthanhxuyen&m=g&t=1&l=us.gif
+HTTP_REFERER=http://localhost/mrPha/Print/
+---
+2014/02/15 05:18:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "online-u=inthanhxuyen1&m=g&t=1&l=us.gif".' in D:\WORKING\CODE\mrPha\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\WORKING\CODE\mrPha\framework\web\CWebApplication.php(141): CWebApplication->runController('online-u=inthan...')
+#1 D:\WORKING\CODE\mrPha\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\WORKING\CODE\mrPha\Print\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/mrPha/Print/online-u=inthanhxuyen1&m=g&t=1&l=us.gif
+HTTP_REFERER=http://localhost/mrPha/Print/
+---
+2014/02/15 05:18:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "In Mau Kho A0-A4.jpg".' in D:\WORKING\CODE\mrPha\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\WORKING\CODE\mrPha\framework\web\CWebApplication.php(141): CWebApplication->runController('In Mau Kho A0-A...')
+#1 D:\WORKING\CODE\mrPha\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\WORKING\CODE\mrPha\Print\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/mrPha/Print/In%20Mau%20Kho%20A0-A4.jpg
+HTTP_REFERER=http://localhost/mrPha/Print/
+---
+2014/02/15 05:20:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "Can mang moi.jpg".' in D:\WORKING\CODE\mrPha\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\WORKING\CODE\mrPha\framework\web\CWebApplication.php(141): CWebApplication->runController('Can mang moi.jp...')
+#1 D:\WORKING\CODE\mrPha\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\WORKING\CODE\mrPha\Print\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/mrPha/Print/Can%20mang%20moi.jpg
+HTTP_REFERER=http://localhost/mrPha/Print/
+---
+2014/02/15 05:20:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "in lazer mau.jpg".' in D:\WORKING\CODE\mrPha\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\WORKING\CODE\mrPha\framework\web\CWebApplication.php(141): CWebApplication->runController('in lazer mau.jp...')
+#1 D:\WORKING\CODE\mrPha\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\WORKING\CODE\mrPha\Print\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/mrPha/Print/in%20lazer%20mau.jpg
+HTTP_REFERER=http://localhost/mrPha/Print/
+---
+2014/02/15 05:20:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "name card.jpg".' in D:\WORKING\CODE\mrPha\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\WORKING\CODE\mrPha\framework\web\CWebApplication.php(141): CWebApplication->runController('name card.jpg')
+#1 D:\WORKING\CODE\mrPha\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\WORKING\CODE\mrPha\Print\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/mrPha/Print/name%20card.jpg
+HTTP_REFERER=http://localhost/mrPha/Print/
+---
+2014/02/15 05:20:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "pho to kho A0-A4.jpg".' in D:\WORKING\CODE\mrPha\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\WORKING\CODE\mrPha\framework\web\CWebApplication.php(141): CWebApplication->runController('pho to kho A0-A...')
+#1 D:\WORKING\CODE\mrPha\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\WORKING\CODE\mrPha\Print\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/mrPha/Print/pho%20to%20kho%20A0-A4.jpg
+HTTP_REFERER=http://localhost/mrPha/Print/
+---
+2014/02/15 05:20:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "ma chu vang bac dong so sach.jpg".' in D:\WORKING\CODE\mrPha\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\WORKING\CODE\mrPha\framework\web\CWebApplication.php(141): CWebApplication->runController('ma chu vang bac...')
+#1 D:\WORKING\CODE\mrPha\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\WORKING\CODE\mrPha\Print\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/mrPha/Print/ma%20chu%20vang%20bac%20dong%20so%20sach.jpg
+HTTP_REFERER=http://localhost/mrPha/Print/
+---
+2014/02/15 05:20:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "chinh sua luan van luan an.jpg".' in D:\WORKING\CODE\mrPha\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\WORKING\CODE\mrPha\framework\web\CWebApplication.php(141): CWebApplication->runController('chinh sua luan ...')
+#1 D:\WORKING\CODE\mrPha\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\WORKING\CODE\mrPha\Print\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/mrPha/Print/chinh%20sua%20luan%20van%20luan%20an.jpg
+HTTP_REFERER=http://localhost/mrPha/Print/
+---
+2014/02/15 05:20:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "in offset.jpg".' in D:\WORKING\CODE\mrPha\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\WORKING\CODE\mrPha\framework\web\CWebApplication.php(141): CWebApplication->runController('in offset.jpg')
+#1 D:\WORKING\CODE\mrPha\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\WORKING\CODE\mrPha\Print\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/mrPha/Print/in%20offset.jpg
+HTTP_REFERER=http://localhost/mrPha/Print/
+---
+2014/02/15 05:20:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "online-u=inthanhxuyen&m=g&t=1&l=us.gif".' in D:\WORKING\CODE\mrPha\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\WORKING\CODE\mrPha\framework\web\CWebApplication.php(141): CWebApplication->runController('online-u=inthan...')
+#1 D:\WORKING\CODE\mrPha\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\WORKING\CODE\mrPha\Print\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/mrPha/Print/online-u=inthanhxuyen&m=g&t=1&l=us.gif
+HTTP_REFERER=http://localhost/mrPha/Print/
+---
+2014/02/15 05:20:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "online-u=inthanhxuyen1&m=g&t=1&l=us.gif".' in D:\WORKING\CODE\mrPha\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\WORKING\CODE\mrPha\framework\web\CWebApplication.php(141): CWebApplication->runController('online-u=inthan...')
+#1 D:\WORKING\CODE\mrPha\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\WORKING\CODE\mrPha\Print\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/mrPha/Print/online-u=inthanhxuyen1&m=g&t=1&l=us.gif
+HTTP_REFERER=http://localhost/mrPha/Print/
+---
+2014/02/15 05:20:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "in bai du thi ky yeu menu.jpg".' in D:\WORKING\CODE\mrPha\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\WORKING\CODE\mrPha\framework\web\CWebApplication.php(141): CWebApplication->runController('in bai du thi k...')
+#1 D:\WORKING\CODE\mrPha\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\WORKING\CODE\mrPha\Print\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/mrPha/Print/in%20bai%20du%20thi%20ky%20yeu%20menu.jpg
+HTTP_REFERER=http://localhost/mrPha/Print/
+---
+2014/02/15 05:20:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "in luan van luan an van ban.jpg".' in D:\WORKING\CODE\mrPha\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\WORKING\CODE\mrPha\framework\web\CWebApplication.php(141): CWebApplication->runController('in luan van lua...')
+#1 D:\WORKING\CODE\mrPha\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\WORKING\CODE\mrPha\Print\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/mrPha/Print/in%20luan%20van%20luan%20an%20van%20ban.jpg
+HTTP_REFERER=http://localhost/mrPha/Print/
+---
+2014/02/15 05:20:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "In Mau Kho A0-A4.jpg".' in D:\WORKING\CODE\mrPha\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\WORKING\CODE\mrPha\framework\web\CWebApplication.php(141): CWebApplication->runController('In Mau Kho A0-A...')
+#1 D:\WORKING\CODE\mrPha\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\WORKING\CODE\mrPha\Print\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/mrPha/Print/In%20Mau%20Kho%20A0-A4.jpg
+HTTP_REFERER=http://localhost/mrPha/Print/
+---
+2014/02/15 05:20:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "thiet ke quang cao.jpg".' in D:\WORKING\CODE\mrPha\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\WORKING\CODE\mrPha\framework\web\CWebApplication.php(141): CWebApplication->runController('thiet ke quang ...')
+#1 D:\WORKING\CODE\mrPha\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\WORKING\CODE\mrPha\Print\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/mrPha/Print/thiet%20ke%20quang%20cao.jpg
+HTTP_REFERER=http://localhost/mrPha/Print/
+---
+2014/02/15 05:20:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "cung cap giay muc nganh in.jpg".' in D:\WORKING\CODE\mrPha\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\WORKING\CODE\mrPha\framework\web\CWebApplication.php(141): CWebApplication->runController('cung cap giay m...')
+#1 D:\WORKING\CODE\mrPha\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\WORKING\CODE\mrPha\Print\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/mrPha/Print/cung%20cap%20giay%20muc%20nganh%20in.jpg
+HTTP_REFERER=http://localhost/mrPha/Print/
+---
+2014/02/15 05:20:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "can ep A0 - A4.jpg".' in D:\WORKING\CODE\mrPha\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\WORKING\CODE\mrPha\framework\web\CWebApplication.php(141): CWebApplication->runController('can ep A0 - A4....')
+#1 D:\WORKING\CODE\mrPha\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\WORKING\CODE\mrPha\Print\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/mrPha/Print/can%20ep%20A0%20-%20A4.jpg
+HTTP_REFERER=http://localhost/mrPha/Print/
+---
+2014/02/15 05:20:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "cung cap may gia cong.jpg".' in D:\WORKING\CODE\mrPha\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\WORKING\CODE\mrPha\framework\web\CWebApplication.php(141): CWebApplication->runController('cung cap may gi...')
+#1 D:\WORKING\CODE\mrPha\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\WORKING\CODE\mrPha\Print\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/mrPha/Print/cung%20cap%20may%20gia%20cong.jpg
+HTTP_REFERER=http://localhost/mrPha/Print/
+---
+2014/02/15 05:22:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "data/data/in lazer mau.jpg".' in D:\WORKING\CODE\mrPha\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\WORKING\CODE\mrPha\framework\web\CWebApplication.php(141): CWebApplication->runController('data/data/in la...')
+#1 D:\WORKING\CODE\mrPha\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\WORKING\CODE\mrPha\Print\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/mrPha/Print/data/data/in%20lazer%20mau.jpg
+HTTP_REFERER=http://localhost/mrPha/Print/
+---
+2014/02/15 05:22:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "data/data/Can mang moi.jpg".' in D:\WORKING\CODE\mrPha\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\WORKING\CODE\mrPha\framework\web\CWebApplication.php(141): CWebApplication->runController('data/data/Can m...')
+#1 D:\WORKING\CODE\mrPha\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\WORKING\CODE\mrPha\Print\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/mrPha/Print/data/data/Can%20mang%20moi.jpg
+HTTP_REFERER=http://localhost/mrPha/Print/
+---
+2014/02/15 05:22:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "data/data/ma chu vang bac dong so sach.jpg".' in D:\WORKING\CODE\mrPha\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\WORKING\CODE\mrPha\framework\web\CWebApplication.php(141): CWebApplication->runController('data/data/ma ch...')
+#1 D:\WORKING\CODE\mrPha\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\WORKING\CODE\mrPha\Print\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/mrPha/Print/data/data/ma%20chu%20vang%20bac%20dong%20so%20sach.jpg
+HTTP_REFERER=http://localhost/mrPha/Print/
+---
+2014/02/15 05:22:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "data/data/name card.jpg".' in D:\WORKING\CODE\mrPha\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\WORKING\CODE\mrPha\framework\web\CWebApplication.php(141): CWebApplication->runController('data/data/name ...')
+#1 D:\WORKING\CODE\mrPha\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\WORKING\CODE\mrPha\Print\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/mrPha/Print/data/data/name%20card.jpg
+HTTP_REFERER=http://localhost/mrPha/Print/
+---
+2014/02/15 05:22:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "data/data/chinh sua luan van luan an.jpg".' in D:\WORKING\CODE\mrPha\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\WORKING\CODE\mrPha\framework\web\CWebApplication.php(141): CWebApplication->runController('data/data/chinh...')
+#1 D:\WORKING\CODE\mrPha\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\WORKING\CODE\mrPha\Print\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/mrPha/Print/data/data/chinh%20sua%20luan%20van%20luan%20an.jpg
+HTTP_REFERER=http://localhost/mrPha/Print/
+---
+2014/02/15 05:22:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "data/data/pho to kho A0-A4.jpg".' in D:\WORKING\CODE\mrPha\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\WORKING\CODE\mrPha\framework\web\CWebApplication.php(141): CWebApplication->runController('data/data/pho t...')
+#1 D:\WORKING\CODE\mrPha\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\WORKING\CODE\mrPha\Print\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/mrPha/Print/data/data/pho%20to%20kho%20A0-A4.jpg
+HTTP_REFERER=http://localhost/mrPha/Print/
+---
+2014/02/15 05:22:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "data/data/in offset.jpg".' in D:\WORKING\CODE\mrPha\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\WORKING\CODE\mrPha\framework\web\CWebApplication.php(141): CWebApplication->runController('data/data/in of...')
+#1 D:\WORKING\CODE\mrPha\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\WORKING\CODE\mrPha\Print\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/mrPha/Print/data/data/in%20offset.jpg
+HTTP_REFERER=http://localhost/mrPha/Print/
+---
+2014/02/15 05:22:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "online-u=inthanhxuyen&m=g&t=1&l=us.gif".' in D:\WORKING\CODE\mrPha\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\WORKING\CODE\mrPha\framework\web\CWebApplication.php(141): CWebApplication->runController('online-u=inthan...')
+#1 D:\WORKING\CODE\mrPha\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\WORKING\CODE\mrPha\Print\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/mrPha/Print/online-u=inthanhxuyen&m=g&t=1&l=us.gif
+HTTP_REFERER=http://localhost/mrPha/Print/
+---
+2014/02/15 05:22:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "online-u=inthanhxuyen1&m=g&t=1&l=us.gif".' in D:\WORKING\CODE\mrPha\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\WORKING\CODE\mrPha\framework\web\CWebApplication.php(141): CWebApplication->runController('online-u=inthan...')
+#1 D:\WORKING\CODE\mrPha\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\WORKING\CODE\mrPha\Print\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/mrPha/Print/online-u=inthanhxuyen1&m=g&t=1&l=us.gif
+HTTP_REFERER=http://localhost/mrPha/Print/
+---
+2014/02/15 05:22:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "pho to kho A0-A4.jpg".' in D:\WORKING\CODE\mrPha\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\WORKING\CODE\mrPha\framework\web\CWebApplication.php(141): CWebApplication->runController('pho to kho A0-A...')
+#1 D:\WORKING\CODE\mrPha\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\WORKING\CODE\mrPha\Print\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/mrPha/Print/pho%20to%20kho%20A0-A4.jpg
+HTTP_REFERER=http://localhost/mrPha/Print/
+---
+2014/02/15 05:22:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "In Mau Kho A0-A4.jpg".' in D:\WORKING\CODE\mrPha\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\WORKING\CODE\mrPha\framework\web\CWebApplication.php(141): CWebApplication->runController('In Mau Kho A0-A...')
+#1 D:\WORKING\CODE\mrPha\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\WORKING\CODE\mrPha\Print\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/mrPha/Print/In%20Mau%20Kho%20A0-A4.jpg
+HTTP_REFERER=http://localhost/mrPha/Print/
+---
+2014/02/15 05:22:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "in lazer mau.jpg".' in D:\WORKING\CODE\mrPha\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\WORKING\CODE\mrPha\framework\web\CWebApplication.php(141): CWebApplication->runController('in lazer mau.jp...')
+#1 D:\WORKING\CODE\mrPha\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\WORKING\CODE\mrPha\Print\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/mrPha/Print/in%20lazer%20mau.jpg
+HTTP_REFERER=http://localhost/mrPha/Print/
+---
+2014/02/15 05:22:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "in bai du thi ky yeu menu.jpg".' in D:\WORKING\CODE\mrPha\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\WORKING\CODE\mrPha\framework\web\CWebApplication.php(141): CWebApplication->runController('in bai du thi k...')
+#1 D:\WORKING\CODE\mrPha\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\WORKING\CODE\mrPha\Print\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/mrPha/Print/in%20bai%20du%20thi%20ky%20yeu%20menu.jpg
+HTTP_REFERER=http://localhost/mrPha/Print/
+---
+2014/02/15 05:22:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "can ep A0 - A4.jpg".' in D:\WORKING\CODE\mrPha\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\WORKING\CODE\mrPha\framework\web\CWebApplication.php(141): CWebApplication->runController('can ep A0 - A4....')
+#1 D:\WORKING\CODE\mrPha\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\WORKING\CODE\mrPha\Print\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/mrPha/Print/can%20ep%20A0%20-%20A4.jpg
+HTTP_REFERER=http://localhost/mrPha/Print/
+---
+2014/02/15 05:22:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "cung cap giay muc nganh in.jpg".' in D:\WORKING\CODE\mrPha\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\WORKING\CODE\mrPha\framework\web\CWebApplication.php(141): CWebApplication->runController('cung cap giay m...')
+#1 D:\WORKING\CODE\mrPha\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\WORKING\CODE\mrPha\Print\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/mrPha/Print/cung%20cap%20giay%20muc%20nganh%20in.jpg
+HTTP_REFERER=http://localhost/mrPha/Print/
+---
+2014/02/15 05:22:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "cung cap may gia cong.jpg".' in D:\WORKING\CODE\mrPha\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\WORKING\CODE\mrPha\framework\web\CWebApplication.php(141): CWebApplication->runController('cung cap may gi...')
+#1 D:\WORKING\CODE\mrPha\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\WORKING\CODE\mrPha\Print\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/mrPha/Print/cung%20cap%20may%20gia%20cong.jpg
+HTTP_REFERER=http://localhost/mrPha/Print/
+---
+2014/02/15 05:22:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "thiet ke quang cao.jpg".' in D:\WORKING\CODE\mrPha\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\WORKING\CODE\mrPha\framework\web\CWebApplication.php(141): CWebApplication->runController('thiet ke quang ...')
+#1 D:\WORKING\CODE\mrPha\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\WORKING\CODE\mrPha\Print\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/mrPha/Print/thiet%20ke%20quang%20cao.jpg
+HTTP_REFERER=http://localhost/mrPha/Print/
+---
+2014/02/15 05:22:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "chinh sua luan van luan an.jpg".' in D:\WORKING\CODE\mrPha\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\WORKING\CODE\mrPha\framework\web\CWebApplication.php(141): CWebApplication->runController('chinh sua luan ...')
+#1 D:\WORKING\CODE\mrPha\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\WORKING\CODE\mrPha\Print\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/mrPha/Print/chinh%20sua%20luan%20van%20luan%20an.jpg
+HTTP_REFERER=http://localhost/mrPha/Print/
+---
+2014/02/15 05:22:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "in offset.jpg".' in D:\WORKING\CODE\mrPha\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\WORKING\CODE\mrPha\framework\web\CWebApplication.php(141): CWebApplication->runController('in offset.jpg')
+#1 D:\WORKING\CODE\mrPha\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\WORKING\CODE\mrPha\Print\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/mrPha/Print/in%20offset.jpg
+HTTP_REFERER=http://localhost/mrPha/Print/
+---
+2014/02/15 05:22:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "ma chu vang bac dong so sach.jpg".' in D:\WORKING\CODE\mrPha\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\WORKING\CODE\mrPha\framework\web\CWebApplication.php(141): CWebApplication->runController('ma chu vang bac...')
+#1 D:\WORKING\CODE\mrPha\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\WORKING\CODE\mrPha\Print\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/mrPha/Print/ma%20chu%20vang%20bac%20dong%20so%20sach.jpg
+HTTP_REFERER=http://localhost/mrPha/Print/
+---
+2014/02/15 05:22:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "in luan van luan an van ban.jpg".' in D:\WORKING\CODE\mrPha\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\WORKING\CODE\mrPha\framework\web\CWebApplication.php(141): CWebApplication->runController('in luan van lua...')
+#1 D:\WORKING\CODE\mrPha\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\WORKING\CODE\mrPha\Print\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/mrPha/Print/in%20luan%20van%20luan%20an%20van%20ban.jpg
+HTTP_REFERER=http://localhost/mrPha/Print/
+---
+2014/02/15 05:23:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "online-u=inthanhxuyen1&m=g&t=1&l=us.gif".' in D:\WORKING\CODE\mrPha\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\WORKING\CODE\mrPha\framework\web\CWebApplication.php(141): CWebApplication->runController('online-u=inthan...')
+#1 D:\WORKING\CODE\mrPha\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\WORKING\CODE\mrPha\Print\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/mrPha/Print/online-u=inthanhxuyen1&m=g&t=1&l=us.gif
+HTTP_REFERER=http://localhost/mrPha/Print/
+---
+2014/02/15 05:23:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "online-u=inthanhxuyen&m=g&t=1&l=us.gif".' in D:\WORKING\CODE\mrPha\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\WORKING\CODE\mrPha\framework\web\CWebApplication.php(141): CWebApplication->runController('online-u=inthan...')
+#1 D:\WORKING\CODE\mrPha\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\WORKING\CODE\mrPha\Print\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/mrPha/Print/online-u=inthanhxuyen&m=g&t=1&l=us.gif
+HTTP_REFERER=http://localhost/mrPha/Print/
+---
+2014/02/15 05:23:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "pho to kho A0-A4.jpg".' in D:\WORKING\CODE\mrPha\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\WORKING\CODE\mrPha\framework\web\CWebApplication.php(141): CWebApplication->runController('pho to kho A0-A...')
+#1 D:\WORKING\CODE\mrPha\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\WORKING\CODE\mrPha\Print\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/mrPha/Print/pho%20to%20kho%20A0-A4.jpg
+HTTP_REFERER=http://localhost/mrPha/Print/
+---
+2014/02/15 05:23:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "in lazer mau.jpg".' in D:\WORKING\CODE\mrPha\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\WORKING\CODE\mrPha\framework\web\CWebApplication.php(141): CWebApplication->runController('in lazer mau.jp...')
+#1 D:\WORKING\CODE\mrPha\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\WORKING\CODE\mrPha\Print\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/mrPha/Print/in%20lazer%20mau.jpg
+HTTP_REFERER=http://localhost/mrPha/Print/
+---
+2014/02/15 05:23:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "In Mau Kho A0-A4.jpg".' in D:\WORKING\CODE\mrPha\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\WORKING\CODE\mrPha\framework\web\CWebApplication.php(141): CWebApplication->runController('In Mau Kho A0-A...')
+#1 D:\WORKING\CODE\mrPha\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\WORKING\CODE\mrPha\Print\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/mrPha/Print/In%20Mau%20Kho%20A0-A4.jpg
+HTTP_REFERER=http://localhost/mrPha/Print/
+---
+2014/02/15 05:23:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "chinh sua luan van luan an.jpg".' in D:\WORKING\CODE\mrPha\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\WORKING\CODE\mrPha\framework\web\CWebApplication.php(141): CWebApplication->runController('chinh sua luan ...')
+#1 D:\WORKING\CODE\mrPha\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\WORKING\CODE\mrPha\Print\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/mrPha/Print/chinh%20sua%20luan%20van%20luan%20an.jpg
+HTTP_REFERER=http://localhost/mrPha/Print/
+---
+2014/02/15 05:23:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "can ep A0 - A4.jpg".' in D:\WORKING\CODE\mrPha\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\WORKING\CODE\mrPha\framework\web\CWebApplication.php(141): CWebApplication->runController('can ep A0 - A4....')
+#1 D:\WORKING\CODE\mrPha\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\WORKING\CODE\mrPha\Print\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/mrPha/Print/can%20ep%20A0%20-%20A4.jpg
+HTTP_REFERER=http://localhost/mrPha/Print/
+---
+2014/02/15 05:23:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "in luan van luan an van ban.jpg".' in D:\WORKING\CODE\mrPha\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\WORKING\CODE\mrPha\framework\web\CWebApplication.php(141): CWebApplication->runController('in luan van lua...')
+#1 D:\WORKING\CODE\mrPha\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\WORKING\CODE\mrPha\Print\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/mrPha/Print/in%20luan%20van%20luan%20an%20van%20ban.jpg
+HTTP_REFERER=http://localhost/mrPha/Print/
+---
+2014/02/15 05:23:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "ma chu vang bac dong so sach.jpg".' in D:\WORKING\CODE\mrPha\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\WORKING\CODE\mrPha\framework\web\CWebApplication.php(141): CWebApplication->runController('ma chu vang bac...')
+#1 D:\WORKING\CODE\mrPha\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\WORKING\CODE\mrPha\Print\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/mrPha/Print/ma%20chu%20vang%20bac%20dong%20so%20sach.jpg
+HTTP_REFERER=http://localhost/mrPha/Print/
+---
+2014/02/15 05:23:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "in offset.jpg".' in D:\WORKING\CODE\mrPha\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\WORKING\CODE\mrPha\framework\web\CWebApplication.php(141): CWebApplication->runController('in offset.jpg')
+#1 D:\WORKING\CODE\mrPha\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\WORKING\CODE\mrPha\Print\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/mrPha/Print/in%20offset.jpg
+HTTP_REFERER=http://localhost/mrPha/Print/
+---
+2014/02/15 05:23:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "in bai du thi ky yeu menu.jpg".' in D:\WORKING\CODE\mrPha\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\WORKING\CODE\mrPha\framework\web\CWebApplication.php(141): CWebApplication->runController('in bai du thi k...')
+#1 D:\WORKING\CODE\mrPha\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\WORKING\CODE\mrPha\Print\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/mrPha/Print/in%20bai%20du%20thi%20ky%20yeu%20menu.jpg
+HTTP_REFERER=http://localhost/mrPha/Print/
+---
+2014/02/15 05:23:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "thiet ke quang cao.jpg".' in D:\WORKING\CODE\mrPha\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\WORKING\CODE\mrPha\framework\web\CWebApplication.php(141): CWebApplication->runController('thiet ke quang ...')
+#1 D:\WORKING\CODE\mrPha\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\WORKING\CODE\mrPha\Print\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/mrPha/Print/thiet%20ke%20quang%20cao.jpg
+HTTP_REFERER=http://localhost/mrPha/Print/
+---
+2014/02/15 05:23:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "cung cap giay muc nganh in.jpg".' in D:\WORKING\CODE\mrPha\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\WORKING\CODE\mrPha\framework\web\CWebApplication.php(141): CWebApplication->runController('cung cap giay m...')
+#1 D:\WORKING\CODE\mrPha\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\WORKING\CODE\mrPha\Print\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/mrPha/Print/cung%20cap%20giay%20muc%20nganh%20in.jpg
+HTTP_REFERER=http://localhost/mrPha/Print/
+---
+2014/02/15 05:23:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "cung cap may gia cong.jpg".' in D:\WORKING\CODE\mrPha\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\WORKING\CODE\mrPha\framework\web\CWebApplication.php(141): CWebApplication->runController('cung cap may gi...')
+#1 D:\WORKING\CODE\mrPha\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\WORKING\CODE\mrPha\Print\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/mrPha/Print/cung%20cap%20may%20gia%20cong.jpg
+HTTP_REFERER=http://localhost/mrPha/Print/
+---
+2014/02/15 05:24:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "pho to kho A0-A4.jpg".' in D:\WORKING\CODE\mrPha\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\WORKING\CODE\mrPha\framework\web\CWebApplication.php(141): CWebApplication->runController('pho to kho A0-A...')
+#1 D:\WORKING\CODE\mrPha\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\WORKING\CODE\mrPha\Print\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/mrPha/Print/pho%20to%20kho%20A0-A4.jpg
+HTTP_REFERER=http://localhost/mrPha/Print/
+---
+2014/02/15 05:24:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "In Mau Kho A0-A4.jpg".' in D:\WORKING\CODE\mrPha\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\WORKING\CODE\mrPha\framework\web\CWebApplication.php(141): CWebApplication->runController('In Mau Kho A0-A...')
+#1 D:\WORKING\CODE\mrPha\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\WORKING\CODE\mrPha\Print\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/mrPha/Print/In%20Mau%20Kho%20A0-A4.jpg
+HTTP_REFERER=http://localhost/mrPha/Print/
+---
+2014/02/15 05:24:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "in lazer mau.jpg".' in D:\WORKING\CODE\mrPha\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\WORKING\CODE\mrPha\framework\web\CWebApplication.php(141): CWebApplication->runController('in lazer mau.jp...')
+#1 D:\WORKING\CODE\mrPha\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\WORKING\CODE\mrPha\Print\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/mrPha/Print/in%20lazer%20mau.jpg
+HTTP_REFERER=http://localhost/mrPha/Print/
+---
+2014/02/15 05:24:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "chinh sua luan van luan an.jpg".' in D:\WORKING\CODE\mrPha\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\WORKING\CODE\mrPha\framework\web\CWebApplication.php(141): CWebApplication->runController('chinh sua luan ...')
+#1 D:\WORKING\CODE\mrPha\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\WORKING\CODE\mrPha\Print\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/mrPha/Print/chinh%20sua%20luan%20van%20luan%20an.jpg
+HTTP_REFERER=http://localhost/mrPha/Print/
+---
+2014/02/15 05:24:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "ma chu vang bac dong so sach.jpg".' in D:\WORKING\CODE\mrPha\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\WORKING\CODE\mrPha\framework\web\CWebApplication.php(141): CWebApplication->runController('ma chu vang bac...')
+#1 D:\WORKING\CODE\mrPha\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\WORKING\CODE\mrPha\Print\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/mrPha/Print/ma%20chu%20vang%20bac%20dong%20so%20sach.jpg
+HTTP_REFERER=http://localhost/mrPha/Print/
+---
+2014/02/15 05:24:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "in luan van luan an van ban.jpg".' in D:\WORKING\CODE\mrPha\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\WORKING\CODE\mrPha\framework\web\CWebApplication.php(141): CWebApplication->runController('in luan van lua...')
+#1 D:\WORKING\CODE\mrPha\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\WORKING\CODE\mrPha\Print\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/mrPha/Print/in%20luan%20van%20luan%20an%20van%20ban.jpg
+HTTP_REFERER=http://localhost/mrPha/Print/
+---
+2014/02/15 05:24:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "in offset.jpg".' in D:\WORKING\CODE\mrPha\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\WORKING\CODE\mrPha\framework\web\CWebApplication.php(141): CWebApplication->runController('in offset.jpg')
+#1 D:\WORKING\CODE\mrPha\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\WORKING\CODE\mrPha\Print\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/mrPha/Print/in%20offset.jpg
+HTTP_REFERER=http://localhost/mrPha/Print/
+---
+2014/02/15 05:24:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "pho to kho A0-A4.jpg".' in D:\WORKING\CODE\mrPha\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\WORKING\CODE\mrPha\framework\web\CWebApplication.php(141): CWebApplication->runController('pho to kho A0-A...')
+#1 D:\WORKING\CODE\mrPha\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\WORKING\CODE\mrPha\Print\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/mrPha/Print/pho%20to%20kho%20A0-A4.jpg
+HTTP_REFERER=http://localhost/mrPha/Print/
+---
+2014/02/15 05:24:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "in bai du thi ky yeu menu.jpg".' in D:\WORKING\CODE\mrPha\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\WORKING\CODE\mrPha\framework\web\CWebApplication.php(141): CWebApplication->runController('in bai du thi k...')
+#1 D:\WORKING\CODE\mrPha\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\WORKING\CODE\mrPha\Print\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/mrPha/Print/in%20bai%20du%20thi%20ky%20yeu%20menu.jpg
+HTTP_REFERER=http://localhost/mrPha/Print/
+---
+2014/02/15 05:24:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "thiet ke quang cao.jpg".' in D:\WORKING\CODE\mrPha\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\WORKING\CODE\mrPha\framework\web\CWebApplication.php(141): CWebApplication->runController('thiet ke quang ...')
+#1 D:\WORKING\CODE\mrPha\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\WORKING\CODE\mrPha\Print\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/mrPha/Print/thiet%20ke%20quang%20cao.jpg
+HTTP_REFERER=http://localhost/mrPha/Print/
+---
+2014/02/15 05:24:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "In Mau Kho A0-A4.jpg".' in D:\WORKING\CODE\mrPha\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\WORKING\CODE\mrPha\framework\web\CWebApplication.php(141): CWebApplication->runController('In Mau Kho A0-A...')
+#1 D:\WORKING\CODE\mrPha\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\WORKING\CODE\mrPha\Print\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/mrPha/Print/In%20Mau%20Kho%20A0-A4.jpg
+HTTP_REFERER=http://localhost/mrPha/Print/
+---
+2014/02/15 05:24:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "can ep A0 - A4.jpg".' in D:\WORKING\CODE\mrPha\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\WORKING\CODE\mrPha\framework\web\CWebApplication.php(141): CWebApplication->runController('can ep A0 - A4....')
+#1 D:\WORKING\CODE\mrPha\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\WORKING\CODE\mrPha\Print\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/mrPha/Print/can%20ep%20A0%20-%20A4.jpg
+HTTP_REFERER=http://localhost/mrPha/Print/
+---
+2014/02/15 05:24:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "cung cap may gia cong.jpg".' in D:\WORKING\CODE\mrPha\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\WORKING\CODE\mrPha\framework\web\CWebApplication.php(141): CWebApplication->runController('cung cap may gi...')
+#1 D:\WORKING\CODE\mrPha\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\WORKING\CODE\mrPha\Print\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/mrPha/Print/cung%20cap%20may%20gia%20cong.jpg
+HTTP_REFERER=http://localhost/mrPha/Print/
+---
+2014/02/15 05:24:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "cung cap giay muc nganh in.jpg".' in D:\WORKING\CODE\mrPha\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\WORKING\CODE\mrPha\framework\web\CWebApplication.php(141): CWebApplication->runController('cung cap giay m...')
+#1 D:\WORKING\CODE\mrPha\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\WORKING\CODE\mrPha\Print\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/mrPha/Print/cung%20cap%20giay%20muc%20nganh%20in.jpg
+HTTP_REFERER=http://localhost/mrPha/Print/
+---
+2014/02/15 05:26:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "In Mau Kho A0-A4.jpg".' in D:\WORKING\CODE\mrPha\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\WORKING\CODE\mrPha\framework\web\CWebApplication.php(141): CWebApplication->runController('In Mau Kho A0-A...')
+#1 D:\WORKING\CODE\mrPha\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\WORKING\CODE\mrPha\Print\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/mrPha/Print/In%20Mau%20Kho%20A0-A4.jpg
+HTTP_REFERER=http://localhost/mrPha/Print/
+---
+2014/02/15 05:28:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/bg-foot.jpg".' in D:\WORKING\CODE\mrPha\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\WORKING\CODE\mrPha\framework\web\CWebApplication.php(141): CWebApplication->runController('images/bg-foot....')
+#1 D:\WORKING\CODE\mrPha\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\WORKING\CODE\mrPha\Print\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/mrPha/Print/images/bg-foot.jpg
+HTTP_REFERER=http://localhost/mrPha/Print/
+---
+2014/02/15 05:28:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/bg-foot.jpg".' in D:\WORKING\CODE\mrPha\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\WORKING\CODE\mrPha\framework\web\CWebApplication.php(141): CWebApplication->runController('images/bg-foot....')
+#1 D:\WORKING\CODE\mrPha\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\WORKING\CODE\mrPha\Print\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/mrPha/Print/images/bg-foot.jpg
+HTTP_REFERER=http://localhost/mrPha/Print/
+---
+2014/02/15 05:29:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/bg-foot.jpg".' in D:\WORKING\CODE\mrPha\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\WORKING\CODE\mrPha\framework\web\CWebApplication.php(141): CWebApplication->runController('images/bg-foot....')
+#1 D:\WORKING\CODE\mrPha\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\WORKING\CODE\mrPha\Print\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/mrPha/Print/images/bg-foot.jpg
+HTTP_REFERER=http://localhost/mrPha/Print/
+---
+2014/02/15 05:29:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/bg-foot.jpg".' in D:\WORKING\CODE\mrPha\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\WORKING\CODE\mrPha\framework\web\CWebApplication.php(141): CWebApplication->runController('images/bg-foot....')
+#1 D:\WORKING\CODE\mrPha\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\WORKING\CODE\mrPha\Print\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/mrPha/Print/images/bg-foot.jpg
+HTTP_REFERER=http://localhost/mrPha/Print/
+---
+2014/02/15 05:30:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/images/bg-foot.jpg".' in D:\WORKING\CODE\mrPha\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\WORKING\CODE\mrPha\framework\web\CWebApplication.php(141): CWebApplication->runController('css/images/bg-f...')
+#1 D:\WORKING\CODE\mrPha\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\WORKING\CODE\mrPha\Print\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/mrPha/Print/css/images/bg-foot.jpg
+HTTP_REFERER=http://localhost/mrPha/Print/
+---
+2014/02/15 05:32:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "13.htm".' in D:\WORKING\CODE\mrPha\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\WORKING\CODE\mrPha\framework\web\CWebApplication.php(141): CWebApplication->runController('13.htm')
+#1 D:\WORKING\CODE\mrPha\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\WORKING\CODE\mrPha\Print\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/mrPha/Print/13.htm
+HTTP_REFERER=http://localhost/mrPha/Print/
+---
+2014/02/15 05:33:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "13.htm".' in D:\WORKING\CODE\mrPha\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\WORKING\CODE\mrPha\framework\web\CWebApplication.php(141): CWebApplication->runController('13.htm')
+#1 D:\WORKING\CODE\mrPha\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\WORKING\CODE\mrPha\Print\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/mrPha/Print/13.htm
+HTTP_REFERER=http://localhost/mrPha/Print/
+---
+2014/02/15 07:18:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "57.htm".' in D:\WORKING\CODE\mrPha\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\WORKING\CODE\mrPha\framework\web\CWebApplication.php(141): CWebApplication->runController('57.htm')
+#1 D:\WORKING\CODE\mrPha\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\WORKING\CODE\mrPha\Print\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/mrPha/Print/57.htm
+HTTP_REFERER=http://localhost/mrPha/Print/
+---
+2014/02/15 07:18:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "Contact.aspx.htm".' in D:\WORKING\CODE\mrPha\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\WORKING\CODE\mrPha\framework\web\CWebApplication.php(141): CWebApplication->runController('Contact.aspx.ht...')
+#1 D:\WORKING\CODE\mrPha\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\WORKING\CODE\mrPha\Print\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/mrPha/Print/Contact.aspx.htm
+HTTP_REFERER=http://localhost/mrPha/Print/57.htm
+---
+2014/02/15 07:27:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "Contact.aspx.htm".' in D:\WORKING\CODE\mrPha\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\WORKING\CODE\mrPha\framework\web\CWebApplication.php(141): CWebApplication->runController('Contact.aspx.ht...')
+#1 D:\WORKING\CODE\mrPha\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\WORKING\CODE\mrPha\Print\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/mrPha/Print/Contact.aspx.htm
+HTTP_REFERER=http://localhost/mrPha/Print/57.htm
+---
+2014/02/15 07:31:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "Contact.aspx.htm".' in D:\WORKING\CODE\mrPha\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\WORKING\CODE\mrPha\framework\web\CWebApplication.php(141): CWebApplication->runController('Contact.aspx.ht...')
+#1 D:\WORKING\CODE\mrPha\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\WORKING\CODE\mrPha\Print\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/mrPha/Print/Contact.aspx.htm
+HTTP_REFERER=http://localhost/mrPha/Print/
+---
+2014/02/15 07:57:56 [error] [php] Undefined variable: user (D:\WORKING\CODE\mrPha\Print\protected\views\admin\login.php:14)
+Stack trace:
+#0 D:\WORKING\CODE\mrPha\framework\web\CController.php(869): Admin123465789Controller->renderFile()
+#1 D:\WORKING\CODE\mrPha\framework\web\CController.php(782): Admin123465789Controller->renderPartial()
+#2 D:\WORKING\CODE\mrPha\Print\protected\controllers\Admin123465789Controller.php(8): Admin123465789Controller->render()
+#3 D:\WORKING\CODE\mrPha\framework\web\actions\CInlineAction.php(49): Admin123465789Controller->actionIndex()
+#4 D:\WORKING\CODE\mrPha\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 D:\WORKING\CODE\mrPha\framework\web\CController.php(286): Admin123465789Controller->runAction()
+#6 D:\WORKING\CODE\mrPha\framework\web\CController.php(265): Admin123465789Controller->runActionWithFilters()
+#7 D:\WORKING\CODE\mrPha\framework\web\CWebApplication.php(282): Admin123465789Controller->run()
+#8 D:\WORKING\CODE\mrPha\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 D:\WORKING\CODE\mrPha\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 D:\WORKING\CODE\mrPha\Print\index.php(13): CWebApplication->run()
+REQUEST_URI=/mrPha/Print/admin123465789
+in D:\WORKING\CODE\mrPha\Print\protected\views\admin\login.php (14)
+in D:\WORKING\CODE\mrPha\Print\protected\controllers\Admin123465789Controller.php (8)
+in D:\WORKING\CODE\mrPha\Print\index.php (13)
+2014/02/15 07:59:31 [error] [php] include(AnlabActiveRecord.php): failed to open stream: No such file or directory (D:\WORKING\CODE\mrPha\framework\YiiBase.php:427)
+Stack trace:
+#0 D:\WORKING\CODE\mrPha\Print\protected\models\Users.php(3): spl_autoload_call()
+#1 D:\WORKING\CODE\mrPha\framework\YiiBase.php(427): include()
+#2 unknown(0): autoload()
+#3 D:\WORKING\CODE\mrPha\Print\protected\controllers\Admin123465789Controller.php(8): spl_autoload_call()
+#4 D:\WORKING\CODE\mrPha\framework\web\actions\CInlineAction.php(49): Admin123465789Controller->actionIndex()
+#5 D:\WORKING\CODE\mrPha\framework\web\CController.php(308): CInlineAction->runWithParams()
+#6 D:\WORKING\CODE\mrPha\framework\web\CController.php(286): Admin123465789Controller->runAction()
+#7 D:\WORKING\CODE\mrPha\framework\web\CController.php(265): Admin123465789Controller->runActionWithFilters()
+#8 D:\WORKING\CODE\mrPha\framework\web\CWebApplication.php(282): Admin123465789Controller->run()
+#9 D:\WORKING\CODE\mrPha\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#10 D:\WORKING\CODE\mrPha\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#11 D:\WORKING\CODE\mrPha\Print\index.php(13): CWebApplication->run()
+REQUEST_URI=/mrPha/Print/admin123465789
+in D:\WORKING\CODE\mrPha\Print\protected\models\Users.php (3)
+in D:\WORKING\CODE\mrPha\Print\protected\controllers\Admin123465789Controller.php (8)
+in D:\WORKING\CODE\mrPha\Print\index.php (13)
+2014/02/15 08:00:39 [error] [exception.CDbException] exception 'CDbException' with message 'The table "Users" for active record class "Users" cannot be found in the database.' in D:\WORKING\CODE\mrPha\framework\db\ar\CActiveRecord.php:2362
+Stack trace:
+#0 D:\WORKING\CODE\mrPha\framework\db\ar\CActiveRecord.php(411): CActiveRecordMetaData->__construct(Object(Users))
+#1 D:\WORKING\CODE\mrPha\framework\db\ar\CActiveRecord.php(79): CActiveRecord->getMetaData()
+#2 D:\WORKING\CODE\mrPha\Print\protected\controllers\Admin123465789Controller.php(8): CActiveRecord->__construct('login')
+#3 D:\WORKING\CODE\mrPha\framework\web\actions\CInlineAction.php(49): Admin123465789Controller->actionIndex()
+#4 D:\WORKING\CODE\mrPha\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 D:\WORKING\CODE\mrPha\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#6 D:\WORKING\CODE\mrPha\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 D:\WORKING\CODE\mrPha\framework\web\CWebApplication.php(282): CController->run('')
+#8 D:\WORKING\CODE\mrPha\framework\web\CWebApplication.php(141): CWebApplication->runController('admin123465789')
+#9 D:\WORKING\CODE\mrPha\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 D:\WORKING\CODE\mrPha\Print\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/mrPha/Print/admin123465789
+---
+2014/02/15 08:05:02 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES)' in D:\WORKING\CODE\mrPha\framework\db\CDbConnection.php:382
+Stack trace:
+#0 D:\WORKING\CODE\mrPha\framework\db\CDbConnection.php(330): CDbConnection->open()
+#1 D:\WORKING\CODE\mrPha\framework\db\CDbConnection.php(308): CDbConnection->setActive(true)
+#2 D:\WORKING\CODE\mrPha\framework\base\CModule.php(387): CDbConnection->init()
+#3 D:\WORKING\CODE\mrPha\framework\base\CApplication.php(450): CModule->getComponent('db')
+#4 D:\WORKING\CODE\mrPha\framework\db\ar\CActiveRecord.php(634): CApplication->getDb()
+#5 D:\WORKING\CODE\mrPha\framework\db\ar\CActiveRecord.php(2361): CActiveRecord->getDbConnection()
+#6 D:\WORKING\CODE\mrPha\framework\db\ar\CActiveRecord.php(411): CActiveRecordMetaData->__construct(Object(Users))
+#7 D:\WORKING\CODE\mrPha\framework\db\ar\CActiveRecord.php(79): CActiveRecord->getMetaData()
+#8 D:\WORKING\CODE\mrPha\Print\protected\controllers\Admin123465789Controller.php(8): CActiveRecord->__construct('login')
+#9 D:\WORKING\CODE\mrPha\framework\web\actions\CInlineAction.php(49): Admin123465789Controller->actionIndex()
+#10 D:\WORKING\CODE\mrPha\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#11 D:\WORKING\CODE\mrPha\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#12 D:\WORKING\CODE\mrPha\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 D:\WORKING\CODE\mrPha\framework\web\CWebApplication.php(282): CController->run('')
+#14 D:\WORKING\CODE\mrPha\framework\web\CWebApplication.php(141): CWebApplication->runController('admin123465789')
+#15 D:\WORKING\CODE\mrPha\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#16 D:\WORKING\CODE\mrPha\Print\index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/mrPha/Print/admin123465789
+---
+2014/02/15 08:10:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "user/checkLogin".' in D:\WORKING\CODE\mrPha\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\WORKING\CODE\mrPha\framework\web\CWebApplication.php(141): CWebApplication->runController('user/checkLogin')
+#1 D:\WORKING\CODE\mrPha\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\WORKING\CODE\mrPha\Print\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/mrPha/Print/user/checkLogin
+HTTP_REFERER=http://localhost/mrPha/Print/admin123465789
+---
+2014/02/15 08:10:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "user/checkLogin".' in D:\WORKING\CODE\mrPha\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\WORKING\CODE\mrPha\framework\web\CWebApplication.php(141): CWebApplication->runController('user/checkLogin')
+#1 D:\WORKING\CODE\mrPha\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\WORKING\CODE\mrPha\Print\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/mrPha/Print/user/checkLogin
+HTTP_REFERER=http://localhost/mrPha/Print/admin123465789
+---
+2014/02/15 08:10:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "user/checkLogin".' in D:\WORKING\CODE\mrPha\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\WORKING\CODE\mrPha\framework\web\CWebApplication.php(141): CWebApplication->runController('user/checkLogin')
+#1 D:\WORKING\CODE\mrPha\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\WORKING\CODE\mrPha\Print\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/mrPha/Print/user/checkLogin
+HTTP_REFERER=http://localhost/mrPha/Print/admin123465789
+---
+2014/02/15 08:10:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "user/checkLogin".' in D:\WORKING\CODE\mrPha\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\WORKING\CODE\mrPha\framework\web\CWebApplication.php(141): CWebApplication->runController('user/checkLogin')
+#1 D:\WORKING\CODE\mrPha\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\WORKING\CODE\mrPha\Print\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/mrPha/Print/user/checkLogin
+HTTP_REFERER=http://localhost/mrPha/Print/admin123465789
+---
+2014/02/15 08:10:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "user/checkLogin".' in D:\WORKING\CODE\mrPha\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\WORKING\CODE\mrPha\framework\web\CWebApplication.php(141): CWebApplication->runController('user/checkLogin')
+#1 D:\WORKING\CODE\mrPha\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\WORKING\CODE\mrPha\Print\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/mrPha/Print/user/checkLogin
+HTTP_REFERER=http://localhost/mrPha/Print/admin123465789
+---
+2014/02/15 08:10:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "user/checkLogin".' in D:\WORKING\CODE\mrPha\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\WORKING\CODE\mrPha\framework\web\CWebApplication.php(141): CWebApplication->runController('user/checkLogin')
+#1 D:\WORKING\CODE\mrPha\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\WORKING\CODE\mrPha\Print\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/mrPha/Print/user/checkLogin
+HTTP_REFERER=http://localhost/mrPha/Print/admin123465789
+---
+2014/02/15 08:10:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "user/checkLogin".' in D:\WORKING\CODE\mrPha\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\WORKING\CODE\mrPha\framework\web\CWebApplication.php(141): CWebApplication->runController('user/checkLogin')
+#1 D:\WORKING\CODE\mrPha\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\WORKING\CODE\mrPha\Print\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/mrPha/Print/user/checkLogin
+HTTP_REFERER=http://localhost/mrPha/Print/admin123465789
+---
+2014/02/15 08:10:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "user/checkLogin".' in D:\WORKING\CODE\mrPha\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\WORKING\CODE\mrPha\framework\web\CWebApplication.php(141): CWebApplication->runController('user/checkLogin')
+#1 D:\WORKING\CODE\mrPha\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\WORKING\CODE\mrPha\Print\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/mrPha/Print/user/checkLogin
+HTTP_REFERER=http://localhost/mrPha/Print/admin123465789
+---
+2014/02/15 10:50:40 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES)' in D:\WORKING\CODE\mrPha\framework\db\CDbConnection.php:382
+Stack trace:
+#0 D:\WORKING\CODE\mrPha\framework\db\CDbConnection.php(330): CDbConnection->open()
+#1 D:\WORKING\CODE\mrPha\framework\db\CDbConnection.php(308): CDbConnection->setActive(true)
+#2 D:\WORKING\CODE\mrPha\framework\base\CModule.php(387): CDbConnection->init()
+#3 D:\WORKING\CODE\mrPha\framework\base\CApplication.php(450): CModule->getComponent('db')
+#4 D:\WORKING\CODE\mrPha\framework\db\ar\CActiveRecord.php(634): CApplication->getDb()
+#5 D:\WORKING\CODE\mrPha\framework\db\ar\CActiveRecord.php(1428): CActiveRecord->getDbConnection()
+#6 D:\WORKING\CODE\mrPha\framework\db\ar\CActiveRecord.php(1484): CActiveRecord->getTableAlias(true)
+#7 D:\WORKING\CODE\mrPha\Print\protected\views\layouts\main.php(35): CActiveRecord->findByPk('admin')
+#8 D:\WORKING\CODE\mrPha\framework\web\CBaseController.php(126): require('D:\WORKING\CODE...')
+#9 D:\WORKING\CODE\mrPha\framework\web\CBaseController.php(95): CBaseController->renderInternal('D:\WORKING\CODE...', Array, true)
+#10 D:\WORKING\CODE\mrPha\framework\web\CController.php(784): CBaseController->renderFile('D:\WORKING\CODE...', Array, true)
+#11 D:\WORKING\CODE\mrPha\Print\protected\controllers\SiteController.php(13): CController->render('/site/homePage', Array)
+#12 D:\WORKING\CODE\mrPha\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#13 D:\WORKING\CODE\mrPha\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#14 D:\WORKING\CODE\mrPha\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#15 D:\WORKING\CODE\mrPha\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#16 D:\WORKING\CODE\mrPha\framework\web\CWebApplication.php(282): CController->run('')
+#17 D:\WORKING\CODE\mrPha\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#18 D:\WORKING\CODE\mrPha\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#19 D:\WORKING\CODE\mrPha\Print\index.php(13): CApplication->run()
+#20 {main}
+REQUEST_URI=/mrPha/Print/
+---
+2014/02/15 10:53:24 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES)' in D:\WORKING\CODE\mrPha\framework\db\CDbConnection.php:382
+Stack trace:
+#0 D:\WORKING\CODE\mrPha\framework\db\CDbConnection.php(330): CDbConnection->open()
+#1 D:\WORKING\CODE\mrPha\framework\db\CDbConnection.php(308): CDbConnection->setActive(true)
+#2 D:\WORKING\CODE\mrPha\framework\base\CModule.php(387): CDbConnection->init()
+#3 D:\WORKING\CODE\mrPha\framework\base\CApplication.php(450): CModule->getComponent('db')
+#4 D:\WORKING\CODE\mrPha\framework\db\ar\CActiveRecord.php(634): CApplication->getDb()
+#5 D:\WORKING\CODE\mrPha\framework\db\ar\CActiveRecord.php(1428): CActiveRecord->getDbConnection()
+#6 D:\WORKING\CODE\mrPha\framework\db\ar\CActiveRecord.php(1484): CActiveRecord->getTableAlias(true)
+#7 D:\WORKING\CODE\mrPha\Print\protected\views\layouts\main.php(35): CActiveRecord->findByPk('admin')
+#8 D:\WORKING\CODE\mrPha\framework\web\CBaseController.php(126): require('D:\WORKING\CODE...')
+#9 D:\WORKING\CODE\mrPha\framework\web\CBaseController.php(95): CBaseController->renderInternal('D:\WORKING\CODE...', Array, true)
+#10 D:\WORKING\CODE\mrPha\framework\web\CController.php(784): CBaseController->renderFile('D:\WORKING\CODE...', Array, true)
+#11 D:\WORKING\CODE\mrPha\Print\protected\controllers\SiteController.php(13): CController->render('/site/homePage', Array)
+#12 D:\WORKING\CODE\mrPha\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#13 D:\WORKING\CODE\mrPha\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#14 D:\WORKING\CODE\mrPha\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#15 D:\WORKING\CODE\mrPha\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#16 D:\WORKING\CODE\mrPha\framework\web\CWebApplication.php(282): CController->run('')
+#17 D:\WORKING\CODE\mrPha\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#18 D:\WORKING\CODE\mrPha\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#19 D:\WORKING\CODE\mrPha\Print\index.php(13): CApplication->run()
+#20 {main}
+REQUEST_URI=/mrPha/Print/
+---
+2014/02/15 10:53:49 [error] [php] include(Plans.php): failed to open stream: No such file or directory (D:\WORKING\CODE\mrPha\framework\YiiBase.php:427)
+Stack trace:
+#0 D:\WORKING\CODE\mrPha\Print\protected\views\layouts\main.php(36): spl_autoload_call()
+#1 D:\WORKING\CODE\mrPha\framework\web\CBaseController.php(126): require()
+#2 D:\WORKING\CODE\mrPha\framework\web\CBaseController.php(95): SiteController->renderInternal()
+#3 D:\WORKING\CODE\mrPha\framework\web\CController.php(784): SiteController->renderFile()
+#4 D:\WORKING\CODE\mrPha\Print\protected\controllers\SiteController.php(13): SiteController->render()
+#5 D:\WORKING\CODE\mrPha\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#6 D:\WORKING\CODE\mrPha\framework\web\CController.php(308): CInlineAction->runWithParams()
+#7 D:\WORKING\CODE\mrPha\framework\web\CController.php(286): SiteController->runAction()
+#8 D:\WORKING\CODE\mrPha\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#9 D:\WORKING\CODE\mrPha\framework\web\CWebApplication.php(282): SiteController->run()
+#10 D:\WORKING\CODE\mrPha\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#11 D:\WORKING\CODE\mrPha\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#12 D:\WORKING\CODE\mrPha\Print\index.php(13): CWebApplication->run()
+REQUEST_URI=/mrPha/Print/
+in D:\WORKING\CODE\mrPha\Print\protected\views\layouts\main.php (36)
+in D:\WORKING\CODE\mrPha\Print\protected\controllers\SiteController.php (13)
+in D:\WORKING\CODE\mrPha\Print\index.php (13)
+2014/02/15 10:54:52 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES)' in D:\WORKING\CODE\mrPha\framework\db\CDbConnection.php:382
+Stack trace:
+#0 D:\WORKING\CODE\mrPha\framework\db\CDbConnection.php(330): CDbConnection->open()
+#1 D:\WORKING\CODE\mrPha\framework\db\CDbConnection.php(308): CDbConnection->setActive(true)
+#2 D:\WORKING\CODE\mrPha\framework\base\CModule.php(387): CDbConnection->init()
+#3 D:\WORKING\CODE\mrPha\framework\base\CApplication.php(450): CModule->getComponent('db')
+#4 D:\WORKING\CODE\mrPha\framework\db\ar\CActiveRecord.php(634): CApplication->getDb()
+#5 D:\WORKING\CODE\mrPha\framework\db\ar\CActiveRecord.php(1428): CActiveRecord->getDbConnection()
+#6 D:\WORKING\CODE\mrPha\framework\db\ar\CActiveRecord.php(1484): CActiveRecord->getTableAlias(true)
+#7 D:\WORKING\CODE\mrPha\Print\protected\views\layouts\main.php(35): CActiveRecord->findByPk('admin')
+#8 D:\WORKING\CODE\mrPha\framework\web\CBaseController.php(126): require('D:\WORKING\CODE...')
+#9 D:\WORKING\CODE\mrPha\framework\web\CBaseController.php(95): CBaseController->renderInternal('D:\WORKING\CODE...', Array, true)
+#10 D:\WORKING\CODE\mrPha\framework\web\CController.php(784): CBaseController->renderFile('D:\WORKING\CODE...', Array, true)
+#11 D:\WORKING\CODE\mrPha\Print\protected\controllers\SiteController.php(13): CController->render('/site/homePage', Array)
+#12 D:\WORKING\CODE\mrPha\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#13 D:\WORKING\CODE\mrPha\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#14 D:\WORKING\CODE\mrPha\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#15 D:\WORKING\CODE\mrPha\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#16 D:\WORKING\CODE\mrPha\framework\web\CWebApplication.php(282): CController->run('')
+#17 D:\WORKING\CODE\mrPha\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#18 D:\WORKING\CODE\mrPha\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#19 D:\WORKING\CODE\mrPha\Print\index.php(13): CApplication->run()
+#20 {main}
+REQUEST_URI=/mrPha/Print/
+---
+2014/02/15 10:55:16 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES)' in D:\WORKING\CODE\mrPha\framework\db\CDbConnection.php:382
+Stack trace:
+#0 D:\WORKING\CODE\mrPha\framework\db\CDbConnection.php(330): CDbConnection->open()
+#1 D:\WORKING\CODE\mrPha\framework\db\CDbConnection.php(308): CDbConnection->setActive(true)
+#2 D:\WORKING\CODE\mrPha\framework\base\CModule.php(387): CDbConnection->init()
+#3 D:\WORKING\CODE\mrPha\framework\base\CApplication.php(450): CModule->getComponent('db')
+#4 D:\WORKING\CODE\mrPha\framework\db\ar\CActiveRecord.php(634): CApplication->getDb()
+#5 D:\WORKING\CODE\mrPha\framework\db\ar\CActiveRecord.php(1428): CActiveRecord->getDbConnection()
+#6 D:\WORKING\CODE\mrPha\framework\db\ar\CActiveRecord.php(1484): CActiveRecord->getTableAlias(true)
+#7 D:\WORKING\CODE\mrPha\Print\protected\views\layouts\main.php(16): CActiveRecord->findByPk('admin')
+#8 D:\WORKING\CODE\mrPha\framework\web\CBaseController.php(126): require('D:\WORKING\CODE...')
+#9 D:\WORKING\CODE\mrPha\framework\web\CBaseController.php(95): CBaseController->renderInternal('D:\WORKING\CODE...', Array, true)
+#10 D:\WORKING\CODE\mrPha\framework\web\CController.php(784): CBaseController->renderFile('D:\WORKING\CODE...', Array, true)
+#11 D:\WORKING\CODE\mrPha\Print\protected\controllers\SiteController.php(13): CController->render('/site/homePage', Array)
+#12 D:\WORKING\CODE\mrPha\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#13 D:\WORKING\CODE\mrPha\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#14 D:\WORKING\CODE\mrPha\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#15 D:\WORKING\CODE\mrPha\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#16 D:\WORKING\CODE\mrPha\framework\web\CWebApplication.php(282): CController->run('')
+#17 D:\WORKING\CODE\mrPha\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#18 D:\WORKING\CODE\mrPha\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#19 D:\WORKING\CODE\mrPha\Print\index.php(13): CApplication->run()
+#20 {main}
+REQUEST_URI=/mrPha/Print/
+---
+2014/02/15 10:55:26 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES)' in D:\WORKING\CODE\mrPha\framework\db\CDbConnection.php:382
+Stack trace:
+#0 D:\WORKING\CODE\mrPha\framework\db\CDbConnection.php(330): CDbConnection->open()
+#1 D:\WORKING\CODE\mrPha\framework\db\CDbConnection.php(308): CDbConnection->setActive(true)
+#2 D:\WORKING\CODE\mrPha\framework\base\CModule.php(387): CDbConnection->init()
+#3 D:\WORKING\CODE\mrPha\framework\base\CApplication.php(450): CModule->getComponent('db')
+#4 D:\WORKING\CODE\mrPha\framework\db\ar\CActiveRecord.php(634): CApplication->getDb()
+#5 D:\WORKING\CODE\mrPha\framework\db\ar\CActiveRecord.php(1428): CActiveRecord->getDbConnection()
+#6 D:\WORKING\CODE\mrPha\framework\db\ar\CActiveRecord.php(1484): CActiveRecord->getTableAlias(true)
+#7 D:\WORKING\CODE\mrPha\Print\protected\views\layouts\main.php(4): CActiveRecord->findByPk('admin')
+#8 D:\WORKING\CODE\mrPha\framework\web\CBaseController.php(126): require('D:\WORKING\CODE...')
+#9 D:\WORKING\CODE\mrPha\framework\web\CBaseController.php(95): CBaseController->renderInternal('D:\WORKING\CODE...', Array, true)
+#10 D:\WORKING\CODE\mrPha\framework\web\CController.php(784): CBaseController->renderFile('D:\WORKING\CODE...', Array, true)
+#11 D:\WORKING\CODE\mrPha\Print\protected\controllers\SiteController.php(13): CController->render('/site/homePage', Array)
+#12 D:\WORKING\CODE\mrPha\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#13 D:\WORKING\CODE\mrPha\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#14 D:\WORKING\CODE\mrPha\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#15 D:\WORKING\CODE\mrPha\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#16 D:\WORKING\CODE\mrPha\framework\web\CWebApplication.php(282): CController->run('')
+#17 D:\WORKING\CODE\mrPha\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#18 D:\WORKING\CODE\mrPha\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#19 D:\WORKING\CODE\mrPha\Print\index.php(13): CApplication->run()
+#20 {main}
+REQUEST_URI=/mrPha/Print/
+---
+2014/02/15 10:55:27 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES)' in D:\WORKING\CODE\mrPha\framework\db\CDbConnection.php:382
+Stack trace:
+#0 D:\WORKING\CODE\mrPha\framework\db\CDbConnection.php(330): CDbConnection->open()
+#1 D:\WORKING\CODE\mrPha\framework\db\CDbConnection.php(308): CDbConnection->setActive(true)
+#2 D:\WORKING\CODE\mrPha\framework\base\CModule.php(387): CDbConnection->init()
+#3 D:\WORKING\CODE\mrPha\framework\base\CApplication.php(450): CModule->getComponent('db')
+#4 D:\WORKING\CODE\mrPha\framework\db\ar\CActiveRecord.php(634): CApplication->getDb()
+#5 D:\WORKING\CODE\mrPha\framework\db\ar\CActiveRecord.php(1428): CActiveRecord->getDbConnection()
+#6 D:\WORKING\CODE\mrPha\framework\db\ar\CActiveRecord.php(1484): CActiveRecord->getTableAlias(true)
+#7 D:\WORKING\CODE\mrPha\Print\protected\views\layouts\main.php(4): CActiveRecord->findByPk('admin')
+#8 D:\WORKING\CODE\mrPha\framework\web\CBaseController.php(126): require('D:\WORKING\CODE...')
+#9 D:\WORKING\CODE\mrPha\framework\web\CBaseController.php(95): CBaseController->renderInternal('D:\WORKING\CODE...', Array, true)
+#10 D:\WORKING\CODE\mrPha\framework\web\CController.php(784): CBaseController->renderFile('D:\WORKING\CODE...', Array, true)
+#11 D:\WORKING\CODE\mrPha\Print\protected\controllers\SiteController.php(13): CController->render('/site/homePage', Array)
+#12 D:\WORKING\CODE\mrPha\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#13 D:\WORKING\CODE\mrPha\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#14 D:\WORKING\CODE\mrPha\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#15 D:\WORKING\CODE\mrPha\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#16 D:\WORKING\CODE\mrPha\framework\web\CWebApplication.php(282): CController->run('')
+#17 D:\WORKING\CODE\mrPha\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#18 D:\WORKING\CODE\mrPha\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#19 D:\WORKING\CODE\mrPha\Print\index.php(13): CApplication->run()
+#20 {main}
+REQUEST_URI=/mrPha/Print/
+---
+2014/02/15 10:55:39 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES)' in D:\WORKING\CODE\mrPha\framework\db\CDbConnection.php:382
+Stack trace:
+#0 D:\WORKING\CODE\mrPha\framework\db\CDbConnection.php(330): CDbConnection->open()
+#1 D:\WORKING\CODE\mrPha\framework\db\CDbConnection.php(308): CDbConnection->setActive(true)
+#2 D:\WORKING\CODE\mrPha\framework\base\CModule.php(387): CDbConnection->init()
+#3 D:\WORKING\CODE\mrPha\framework\base\CApplication.php(450): CModule->getComponent('db')
+#4 D:\WORKING\CODE\mrPha\framework\db\ar\CActiveRecord.php(634): CApplication->getDb()
+#5 D:\WORKING\CODE\mrPha\framework\db\ar\CActiveRecord.php(1428): CActiveRecord->getDbConnection()
+#6 D:\WORKING\CODE\mrPha\framework\db\ar\CActiveRecord.php(1484): CActiveRecord->getTableAlias(true)
+#7 D:\WORKING\CODE\mrPha\Print\protected\views\layouts\main.php(4): CActiveRecord->findByPk('admin')
+#8 D:\WORKING\CODE\mrPha\framework\web\CBaseController.php(126): require('D:\WORKING\CODE...')
+#9 D:\WORKING\CODE\mrPha\framework\web\CBaseController.php(95): CBaseController->renderInternal('D:\WORKING\CODE...', Array, true)
+#10 D:\WORKING\CODE\mrPha\framework\web\CController.php(784): CBaseController->renderFile('D:\WORKING\CODE...', Array, true)
+#11 D:\WORKING\CODE\mrPha\Print\protected\controllers\SiteController.php(13): CController->render('/site/homePage', Array)
+#12 D:\WORKING\CODE\mrPha\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#13 D:\WORKING\CODE\mrPha\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#14 D:\WORKING\CODE\mrPha\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#15 D:\WORKING\CODE\mrPha\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#16 D:\WORKING\CODE\mrPha\framework\web\CWebApplication.php(282): CController->run('')
+#17 D:\WORKING\CODE\mrPha\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#18 D:\WORKING\CODE\mrPha\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#19 D:\WORKING\CODE\mrPha\Print\index.php(13): CApplication->run()
+#20 {main}
+REQUEST_URI=/mrPha/Print/
+---
+2014/02/15 10:56:01 [error] [php] Undefined variable: plan (D:\WORKING\CODE\mrPha\Print\protected\views\layouts\main.php:14)
+Stack trace:
+#0 D:\WORKING\CODE\mrPha\framework\web\CController.php(784): SiteController->renderFile()
+#1 D:\WORKING\CODE\mrPha\Print\protected\controllers\SiteController.php(13): SiteController->render()
+#2 D:\WORKING\CODE\mrPha\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#3 D:\WORKING\CODE\mrPha\framework\web\CController.php(308): CInlineAction->runWithParams()
+#4 D:\WORKING\CODE\mrPha\framework\web\CController.php(286): SiteController->runAction()
+#5 D:\WORKING\CODE\mrPha\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#6 D:\WORKING\CODE\mrPha\framework\web\CWebApplication.php(282): SiteController->run()
+#7 D:\WORKING\CODE\mrPha\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#8 D:\WORKING\CODE\mrPha\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#9 D:\WORKING\CODE\mrPha\Print\index.php(13): CWebApplication->run()
+REQUEST_URI=/mrPha/Print/
+in D:\WORKING\CODE\mrPha\Print\protected\views\layouts\main.php (14)
+in D:\WORKING\CODE\mrPha\Print\protected\controllers\SiteController.php (13)
+in D:\WORKING\CODE\mrPha\Print\index.php (13)
+2014/02/15 10:57:59 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES)' in D:\WORKING\CODE\mrPha\framework\db\CDbConnection.php:382
+Stack trace:
+#0 D:\WORKING\CODE\mrPha\framework\db\CDbConnection.php(330): CDbConnection->open()
+#1 D:\WORKING\CODE\mrPha\framework\db\CDbConnection.php(308): CDbConnection->setActive(true)
+#2 D:\WORKING\CODE\mrPha\framework\base\CModule.php(387): CDbConnection->init()
+#3 D:\WORKING\CODE\mrPha\framework\base\CApplication.php(450): CModule->getComponent('db')
+#4 D:\WORKING\CODE\mrPha\framework\db\ar\CActiveRecord.php(634): CApplication->getDb()
+#5 D:\WORKING\CODE\mrPha\framework\db\ar\CActiveRecord.php(1428): CActiveRecord->getDbConnection()
+#6 D:\WORKING\CODE\mrPha\framework\db\ar\CActiveRecord.php(1484): CActiveRecord->getTableAlias(true)
+#7 D:\WORKING\CODE\mrPha\Print\protected\views\layouts\main.php(534): CActiveRecord->findByPk('admin')
+#8 D:\WORKING\CODE\mrPha\framework\web\CBaseController.php(126): require('D:\WORKING\CODE...')
+#9 D:\WORKING\CODE\mrPha\framework\web\CBaseController.php(95): CBaseController->renderInternal('D:\WORKING\CODE...', Array, true)
+#10 D:\WORKING\CODE\mrPha\framework\web\CController.php(784): CBaseController->renderFile('D:\WORKING\CODE...', Array, true)
+#11 D:\WORKING\CODE\mrPha\Print\protected\controllers\SiteController.php(13): CController->render('/site/homePage', Array)
+#12 D:\WORKING\CODE\mrPha\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#13 D:\WORKING\CODE\mrPha\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#14 D:\WORKING\CODE\mrPha\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#15 D:\WORKING\CODE\mrPha\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#16 D:\WORKING\CODE\mrPha\framework\web\CWebApplication.php(282): CController->run('')
+#17 D:\WORKING\CODE\mrPha\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#18 D:\WORKING\CODE\mrPha\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#19 D:\WORKING\CODE\mrPha\Print\index.php(13): CApplication->run()
+#20 {main}
+REQUEST_URI=/mrPha/Print/
+---
+2014/02/15 10:58:47 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES)' in D:\WORKING\CODE\mrPha\framework\db\CDbConnection.php:382
+Stack trace:
+#0 D:\WORKING\CODE\mrPha\framework\db\CDbConnection.php(330): CDbConnection->open()
+#1 D:\WORKING\CODE\mrPha\framework\db\CDbConnection.php(308): CDbConnection->setActive(true)
+#2 D:\WORKING\CODE\mrPha\framework\base\CModule.php(387): CDbConnection->init()
+#3 D:\WORKING\CODE\mrPha\framework\base\CApplication.php(450): CModule->getComponent('db')
+#4 D:\WORKING\CODE\mrPha\framework\db\ar\CActiveRecord.php(634): CApplication->getDb()
+#5 D:\WORKING\CODE\mrPha\framework\db\ar\CActiveRecord.php(2361): CActiveRecord->getDbConnection()
+#6 D:\WORKING\CODE\mrPha\framework\db\ar\CActiveRecord.php(411): CActiveRecordMetaData->__construct(Object(Users))
+#7 D:\WORKING\CODE\mrPha\framework\db\ar\CActiveRecord.php(79): CActiveRecord->getMetaData()
+#8 D:\WORKING\CODE\mrPha\Print\protected\controllers\Admin123465789Controller.php(8): CActiveRecord->__construct('login')
+#9 D:\WORKING\CODE\mrPha\framework\web\actions\CInlineAction.php(49): Admin123465789Controller->actionIndex()
+#10 D:\WORKING\CODE\mrPha\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#11 D:\WORKING\CODE\mrPha\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#12 D:\WORKING\CODE\mrPha\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 D:\WORKING\CODE\mrPha\framework\web\CWebApplication.php(282): CController->run('')
+#14 D:\WORKING\CODE\mrPha\framework\web\CWebApplication.php(141): CWebApplication->runController('admin123465789')
+#15 D:\WORKING\CODE\mrPha\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#16 D:\WORKING\CODE\mrPha\Print\index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/mrPha/Print/admin123465789
+---
+2014/02/15 10:59:15 [error] [php] Creating default object from empty value (D:\WORKING\CODE\mrPha\Print\protected\controllers\Admin123465789Controller.php:15)
+Stack trace:
+#0 D:\WORKING\CODE\mrPha\framework\web\CController.php(286): Admin123465789Controller->runAction()
+#1 D:\WORKING\CODE\mrPha\framework\web\CController.php(265): Admin123465789Controller->runActionWithFilters()
+#2 D:\WORKING\CODE\mrPha\framework\web\CWebApplication.php(282): Admin123465789Controller->run()
+#3 D:\WORKING\CODE\mrPha\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 D:\WORKING\CODE\mrPha\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#5 D:\WORKING\CODE\mrPha\Print\index.php(13): CWebApplication->run()
+REQUEST_URI=/mrPha/Print/admin123465789
+in D:\WORKING\CODE\mrPha\Print\protected\controllers\Admin123465789Controller.php (15)
+in D:\WORKING\CODE\mrPha\Print\index.php (13)
+2014/02/15 11:04:51 [error] [php] Creating default object from empty value (D:\WORKING\CODE\mrPha\Print\protected\controllers\Admin123465789Controller.php:15)
+Stack trace:
+#0 D:\WORKING\CODE\mrPha\framework\web\CController.php(286): Admin123465789Controller->runAction()
+#1 D:\WORKING\CODE\mrPha\framework\web\CController.php(265): Admin123465789Controller->runActionWithFilters()
+#2 D:\WORKING\CODE\mrPha\framework\web\CWebApplication.php(282): Admin123465789Controller->run()
+#3 D:\WORKING\CODE\mrPha\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 D:\WORKING\CODE\mrPha\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#5 D:\WORKING\CODE\mrPha\Print\index.php(13): CWebApplication->run()
+REQUEST_URI=/mrPha/Print/admin123465789
+in D:\WORKING\CODE\mrPha\Print\protected\controllers\Admin123465789Controller.php (15)
+in D:\WORKING\CODE\mrPha\Print\index.php (13)
+2014/02/15 11:08:39 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES)' in D:\WORKING\CODE\mrPha\framework\db\CDbConnection.php:382
+Stack trace:
+#0 D:\WORKING\CODE\mrPha\framework\db\CDbConnection.php(330): CDbConnection->open()
+#1 D:\WORKING\CODE\mrPha\framework\db\CDbConnection.php(308): CDbConnection->setActive(true)
+#2 D:\WORKING\CODE\mrPha\framework\base\CModule.php(387): CDbConnection->init()
+#3 D:\WORKING\CODE\mrPha\framework\base\CApplication.php(450): CModule->getComponent('db')
+#4 D:\WORKING\CODE\mrPha\framework\db\ar\CActiveRecord.php(634): CApplication->getDb()
+#5 D:\WORKING\CODE\mrPha\framework\db\ar\CActiveRecord.php(2361): CActiveRecord->getDbConnection()
+#6 D:\WORKING\CODE\mrPha\framework\db\ar\CActiveRecord.php(411): CActiveRecordMetaData->__construct(Object(Users))
+#7 D:\WORKING\CODE\mrPha\framework\db\ar\CActiveRecord.php(79): CActiveRecord->getMetaData()
+#8 D:\WORKING\CODE\mrPha\Print\protected\controllers\Admin123465789Controller.php(8): CActiveRecord->__construct('login')
+#9 D:\WORKING\CODE\mrPha\framework\web\actions\CInlineAction.php(49): Admin123465789Controller->actionIndex()
+#10 D:\WORKING\CODE\mrPha\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#11 D:\WORKING\CODE\mrPha\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#12 D:\WORKING\CODE\mrPha\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 D:\WORKING\CODE\mrPha\framework\web\CWebApplication.php(282): CController->run('')
+#14 D:\WORKING\CODE\mrPha\framework\web\CWebApplication.php(141): CWebApplication->runController('admin123465789')
+#15 D:\WORKING\CODE\mrPha\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#16 D:\WORKING\CODE\mrPha\Print\index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/mrPha/Print/admin123465789
+---
+2014/02/15 11:10:32 [error] [php] Creating default object from empty value (D:\WORKING\CODE\mrPha\Print\protected\controllers\Admin123465789Controller.php:15)
+Stack trace:
+#0 D:\WORKING\CODE\mrPha\framework\web\CController.php(286): Admin123465789Controller->runAction()
+#1 D:\WORKING\CODE\mrPha\framework\web\CController.php(265): Admin123465789Controller->runActionWithFilters()
+#2 D:\WORKING\CODE\mrPha\framework\web\CWebApplication.php(282): Admin123465789Controller->run()
+#3 D:\WORKING\CODE\mrPha\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 D:\WORKING\CODE\mrPha\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#5 D:\WORKING\CODE\mrPha\Print\index.php(13): CWebApplication->run()
+REQUEST_URI=/mrPha/Print/admin123465789
+in D:\WORKING\CODE\mrPha\Print\protected\controllers\Admin123465789Controller.php (15)
+in D:\WORKING\CODE\mrPha\Print\index.php (13)
