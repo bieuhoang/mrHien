@@ -109,9 +109,7 @@ ul,h1,h2,h3,li,p {
 	border-radius: 6px;
 	width: 353px;
 	min-height: 305px; /*292px;*/
-	background: url("bg-service.jpg"
-		/*tpa=http://inthanhxuyen.com/data/css/images/bg-service.jpg*/)
-		no-repeat bottom right;
+	background: white;
 	overflow: hidden;
 }
 

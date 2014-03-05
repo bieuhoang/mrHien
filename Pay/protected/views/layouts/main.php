@@ -46,7 +46,7 @@ var baseUrl = "<?php echo Yii::app()->request->baseUrl; ?>";
 <meta name="keywords" content="In ấn, in màu A0 - A4, Máy cán màng mini" />
 <meta name="title" content="Yen Linh Print" />
 </head>
-<body>
+<body style="background-image: url('<?php  echo Yii::app()->request->baseUrl.'/images/data/bg-master.png'?>')">
 <?php
 $banner = Sanpham::model ()->find ( array (
 		"condition" => "type = '4'" 
