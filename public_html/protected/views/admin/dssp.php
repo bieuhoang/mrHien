@@ -18,7 +18,7 @@ if($sps != null){
 		if($thisTL != null){
 			$tenTl = $tenTl.$thisTL->name."</br>";
 		}
-		$listChecks=["gioithieu", "lienhe", "top", "trai", "phai", "moi"];
+		$listChecks=array("gioithieu", "lienhe", "top", "trai", "phai", "moi");
 		foreach ($listChecks as $listCheck){
 		if($thisSp->$listCheck == 1){
 			$tenTl = $tenTl.$listCheck."</br>";
