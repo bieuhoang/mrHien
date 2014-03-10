@@ -43,6 +43,11 @@ $form = $this->beginWidget ( 'CActiveForm', array (
 		<?php echo $form->fileField($model, 'image');?>
 		<?php echo $form->error($model,'image'); ?>
 </div>
+
+<div class="row">
+	<label for="Sanpham_parent">Tóm tắt</label>
+	<textarea name="Sanpham[tomtat]"></textarea>
+</div>
 <div class="row">
 	<label for="Sanpham_parent">Nội dung</label>
 	<textarea id="input" name="Sanpham[noidung]"></textarea>

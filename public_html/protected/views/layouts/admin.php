@@ -1,4 +1,3 @@
-<?php /* @var $this Controller */ ?>
 <script type="text/javascript">
 var baseUrl = "<?php echo Yii::app()->request->baseUrl; ?>";
 </script>
@@ -6,15 +5,17 @@ var baseUrl = "<?php echo Yii::app()->request->baseUrl; ?>";
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="vi" dir="ltr">
 <head>
-<meta name="language" content="en" />
-
-<title>H-CARD mr Hien-0975.268.459</title>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<link rel="shortcut icon" href="/favicon.ico" />
+<title></title>
+<META HTTP-EQUIV="Content-Language" CONTENT="vi">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<META NAME="description" CONTENT="">
+<META NAME="keywords" CONTENT="khái niệm, quảng bá web, tag, forum, technical, science, thảo luận, trao đổi">
+<meta name="title" content="Thanh Xuyen Print" />
 <meta content="CÔNG TY CỔ PHẦN IN THANH XUYẾN" name="GENERATOR" />
 <meta content="3cdotcom.vn" name="author" />
-<meta content="text/javascript" http-equiv="Content-Script-Type" />
-<meta name="robots" content="INDEX, FOLLOW" />
+<meta name="google-site-verification"
+	content="pOsYHbGVQ1XjaJxDR1WwIvpfiaPBSuaQ0nBTtDxOPZc" />
+<link rel="shortcut icon" href="/favicon.ico" />
 <link href="<?php echo Yii::app()->request->baseUrl; ?>/css/style.css"
 	rel="stylesheet" type="text/css" />
 <link
@@ -41,13 +42,6 @@ var baseUrl = "<?php echo Yii::app()->request->baseUrl; ?>";
 	href="<?php echo Yii::app()->request->baseUrl; ?>/js/clEditor/jquery.cleditor.css" />
 <script type="text/javascript"
 	src="<?php echo Yii::app()->request->baseUrl; ?>/js/clEditor/jquery.cleditor.min.js"></script>
-
-<meta name="google-site-verification"
-	content="pOsYHbGVQ1XjaJxDR1WwIvpfiaPBSuaQ0nBTtDxOPZc" />
-<meta name="description"
-	content="Cung cấp các giải pháp liên quan đến In ấn, máy gia công, máy văn phòng." />
-<meta name="keywords" content="In ấn, in màu A0 - A4, Máy cán màng mini" />
-<meta name="title" content="Thanh Xuyen Print" />
 </head>
 <body>
 	<div class="container">
@@ -55,7 +49,18 @@ var baseUrl = "<?php echo Yii::app()->request->baseUrl; ?>";
 
 		<div class="col-body">
 			<div class="col-left">
-				<a href="logout">Logout</a>
+			<?php
+
+
+if (isset (Yii :: app()->user->id) && (Yii :: app()->user->id != null)) {
+?>
+			<a href="logout">Logout</a>
+			<?php
+
+
+}
+?>
+				
 				<div class="box-news-id">
 					<h2>Quản lý danh muc</h2>
 
@@ -100,13 +105,18 @@ var baseUrl = "<?php echo Yii::app()->request->baseUrl; ?>";
 							</div></li>
 						<li class="lch"><div>
 								<a
-									href="<?php echo Yii::app()->request->baseUrl; ?>/admin123465789/#" class="ch">THÔNG
+									href="<?php echo Yii::app()->request->baseUrl; ?>/admin123465789/lienhe" class="ch">THÔNG
 									TIN LIÊN HỆ</a>
 							</div></li>
 						<li class="lch"><div>
 								<a
 									href="<?php echo Yii::app()->request->baseUrl; ?>/admin123465789/bando"
 									class="ch">CẬP NHẬT BẢN ĐỒ</a>
+							</div></li>
+							<li class="lch"><div>
+								<a
+									href="<?php echo Yii::app()->request->baseUrl; ?>/admin123465789/tukhoa"
+									class="ch">TỪ KHÓA</a>
 							</div></li>
 					</ul>
 				</div>
@@ -115,11 +125,12 @@ var baseUrl = "<?php echo Yii::app()->request->baseUrl; ?>";
 			<div class="col-right">
 					<?php if(isset($this->breadcrumbs)):?>
 				<?php
-						
-$this->widget ( 'zii.widgets.CBreadcrumbs', array (
-								'links' => $this->breadcrumbs 
-						) );
-						?>
+
+
+$this->widget('zii.widgets.CBreadcrumbs', array (
+	'links' => $this->breadcrumbs
+));
+?>
 			<?php endif?>	
 			<?php echo "<div class='adminPages'>".$content."</div>"; ?>
 				</div>

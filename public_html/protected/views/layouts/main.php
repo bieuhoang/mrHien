@@ -1,4 +1,6 @@
 <?php
+$kw = Sanpham :: model()->find(array ("condition" => "type = '12'"));
+$ttlh = Sanpham :: model()->find(array ("condition" => "type = '11'"));
 /* @var $this Controller */
 ?>
 <script type="text/javascript">
@@ -8,15 +10,17 @@ var baseUrl = "<?php echo Yii::app()->request->baseUrl; ?>";
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="vi" dir="ltr">
 <head>
-<meta name="language" content="en" />
 
-<title>H-CARD mr Hien-0975.268.459</title>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<META HTTP-EQUIV="Content-Language" CONTENT="vi">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<META NAME="description" CONTENT="<?php if($kw != null)	echo $kw->noidung; ?>">
+<META NAME="keywords" CONTENT="<?php if($kw != null)	echo $kw->tomtat; ?>">
+<meta name="title" content="<?php if($ttlh != null)	echo $ttlh->tomtat; ?>" />
+<meta content="<?php if($ttlh != null)	echo $ttlh->tomtat; ?>" name="GENERATOR" />
+<meta name="google-site-verification"
+	content="pOsYHbGVQ1XjaJxDR1WwIvpfiaPBSuaQ0nBTtDxOPZc" />
+<title><?php if($ttlh != null)	echo $ttlh->tomtat; ?></title>
 <link rel="shortcut icon" href="/favicon.ico" />
-<meta content="CỬA HÀNG DỊCH VỤ YẾN LINH" name="GENERATOR" />
-<meta content="3cdotcom.vn" name="author" />
-<meta content="text/javascript" http-equiv="Content-Script-Type" />
-<meta name="robots" content="INDEX, FOLLOW" />
 <link href="<?php echo Yii::app()->request->baseUrl; ?>/css/style.css"
 	rel="stylesheet" type="text/css" />
 <link
@@ -43,10 +47,6 @@ var baseUrl = "<?php echo Yii::app()->request->baseUrl; ?>";
 	href="<?php echo Yii::app()->request->baseUrl; ?>/js/clEditor/jquery.cleditor.css" />
 <script type="text/javascript"
 	src="<?php echo Yii::app()->request->baseUrl; ?>/js/clEditor/jquery.cleditor.min.js"></script>
-<meta name="description"
-	content="Cung cấp các giải pháp liên quan đến In ấn, máy gia công, máy văn phòng." />
-<meta name="keywords" content="In ấn, in màu A0 - A4, Máy cán màng mini" />
-<meta name="title" content="Yen Linh Print" />
 </head>
 <body style="background-image: url('<?php  echo Yii::app()->request->baseUrl.'/images/data/bg-master.png'?>')">
 <?php
@@ -65,7 +65,7 @@ if ($banner != null) {
 				src="<?php echo Yii::app()->request->baseUrl."/files/images/".$bn; ?>"
 				border="0">
 		</div>
-		<div id="menu_global">
+		<div id="menu_global" style="background: white;">
 			<div class="jqueryslidemenu" id="myslidemenu">
 				<ul>
 					<li><a href="<?php echo Yii::app()->request->baseUrl; ?>">Trang chủ</a></li>
@@ -184,20 +184,20 @@ foreach ($pas as $pa) {
 							</ul>
 						</marquee>
 					</div>
-
+<?php if($ttlh != null){ ?>
 					<div class="box-news-id">
 						<h2>Hỗ trợ trực tuyến</h2>
 						<div class="fix">
 							<ul class="support">
-							<li class="ts">TRUNG TÂM DỊCH VỤ H-CARD</li>
-							<li class="ol">Đc: Ngô Thị Nhậm, Hà Đông- Hà Nội</li>
-							<li class="phone">Kinh doanh: Mr. Hiển</li>
-							<li class="phone">Hotline: 0975.268.459</li>
-							<li class="phone">Email: ............</li>
+							<li class="ts"><?php echo $ttlh->tomtat;?></li>
+							<li class="ol"><?php echo $ttlh->url;?></li>
+							<li class="phone">Kinh doanh: <?php echo $ttlh->gia;?></li>
+							<li class="phone">Hotline: <?php echo $ttlh->name;?></li>
+							<li class="phone">Email: <?php echo $ttlh->noidung;?></li>
 							</ul>
 						</div>
 					</div>
-
+<?php }?>
 					<div class="c-adversting"></div>
 				</div>
 
@@ -242,11 +242,12 @@ foreach ($pas as $pa) {
 			<div class="footer">
 				<div style="text-align: center;">
 					<div style="text-align: center;">
-						<span style="font-size: 20px;"><strong>TRUNG TÂM DỊCH VỤ THẺ - SIM THẺ</strong></span><br />
-						<span style="font-size: 14px;"><strong>Trụ sở: 53- Ngô Thị Nhậm - Quận Hà ĐOng - TP Hà Nội</strong><br /> H-CARD mr Hien-0975.268.459</span><br /> <strong>Email:</strong>
-						xxxxxxxxxx<br /> <span
+					<?php if($ttlh != null){ ?>
+						<span style="font-size: 20px;"><strong><?php echo $ttlh->tomtat;?></strong></span><br />
+						<span style="font-size: 14px;"><strong><?php echo $ttlh->url;?></strong><br /> <?php echo $ttlh->gia;?>  <?php echo $ttlh->name;?></span><br /> <strong>Email: <?php echo $ttlh->noidung;?></strong>
+						<?php echo $ttlh->gia;?><br /> <span
 							style="font-size: 14px;">
-					
+					<?php }?>
 					</div>
 				</div>
 			</div>
@@ -255,8 +256,6 @@ foreach ($pas as $pa) {
 	<div id="divAdLeft" class="dpl"
 		style="display: none; position: absolute; top: 10px; left: 0px;">
 		<?php
-
-
 				$mnts = Sanpham :: model()->findAll(array (
 					"condition" => "trai = '1'",
 					'order' => 'thutu ASC',
