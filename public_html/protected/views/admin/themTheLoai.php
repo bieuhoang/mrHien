@@ -34,10 +34,10 @@ $form = $this->beginWidget ( 'CActiveForm', array (
 	</div>
 <div class="row">
 	<label for="Sanpham_parent">Tóm tắt</label>
-	<textarea name="Sanpham[tomtat]"></textarea>
+	<textarea id="ttnd" name="Sanpham[tomtat]"></textarea>
 </div>
 <div class="row">
-	<label for="Sanpham_parent">Giới thiệu tóm tắt</label>
+	<label for="Sanpham_parent">Nội dung chi tiết</label>
 	<textarea id="input" name="Sanpham[noidung]"></textarea>
 </div>
 <input type="text" name="Sanpham[type]" value="1" style="display: none;" />
@@ -48,6 +48,8 @@ $form = $this->beginWidget ( 'CActiveForm', array (
 <?php $this->endWidget(); ?>
 
 <script type="text/javascript">
+
+$("#ttnd").val('<?php echo $model->tomtat;?>');
 $("#input").val('<?php echo $model->noidung;?>');
 $("#input").cleditor();
    </script>
