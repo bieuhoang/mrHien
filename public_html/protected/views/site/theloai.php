@@ -9,6 +9,8 @@
 <div style="clear:both; font-size:11px; border-bottom:1px solid #ccc; padding:6px 0 6px 9px; margin-bottom:12px;"> 
 </div>
 			<div id="fontnewsdetail" class="content"><h1 style="display:block;"><?php echo $pas->name;?></h1>
+			<div style="font-size: 14;font-weight: bold;color: #005fa3;"><img src="<?php echo Yii::app()->request->baseUrl."/files/images/".$pas->image; ?>" style="max-width: 2000px; max-height: 200px;"/><?php echo $pas->tomtat;?></div>
+			<div><?php echo $pas->noidung;?></div>
 			<div class="stdo_nd_sp" style="font-size: 10pt;"><div>	&nbsp;</div>
 			<table border="0" cellpadding="1" cellspacing="1" height="802" width="711">	<tbody>
 			<?php

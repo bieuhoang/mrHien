@@ -79,6 +79,7 @@ class Admin123465789Controller extends CController {
 		$upSp = Yii :: app()->request->getPost("Sanpham");
 		if ($upSp != null && $upSp != "") {
 			$sp->type = 4;
+			$sp->url = "#";
 			if (CUploadedFile :: getInstance($sp, 'image') != null && CUploadedFile :: getInstance($sp, 'image') != "") {
 				$sp->image = CUploadedFile :: getInstance($sp, 'image');
 				$sp->image->saveAs(Yii :: getPathOfAlias('webroot.files.') . '/images/' . CUploadedFile :: getInstance($sp, 'image'));

@@ -171,13 +171,17 @@ foreach ($pas as $pa) {
 		));
 		if ($spms != null) {
 			foreach ($spms as $spm) {
+				$urlspm = $spm->url;
+				if($spm->url == null || $spm->url == ""){
+					$urlspm = Yii::app()->request->baseUrl.'/site/sp?i='.$spm->id.'&_'.$spm->name;
+				}
 ?>
 									<li><a
-									href="<?php echo Yii::app()->request->baseUrl.'/site/sp?i='.$spm->id.'&_'.$spm->name;?>"><img
+									href="<?php echo $urlspm?>"><img
 										src="<?php echo Yii::app()->request->baseUrl."/files/images/".$spm->image; ?>"></a>
 									<h1>
 										<a
-											href="<?php echo Yii::app()->request->baseUrl.'/site/sp?i='.$spm->id.'&_'.$spm->name;?>"><?php echo $spm->name;?></a>
+											href="<?php echo $urlspm;?>"><?php echo $spm->name;?></a>
 									</h1></li>
 							<?php }}?>
 								
@@ -263,12 +267,12 @@ foreach ($pas as $pa) {
 				));
 				if ($mnts != null) {
 					foreach ($mnts as $mnt) {
-						$url = $mnt->url;
+						$urlt = $mnt->url;
 						if ($mnt->url == null) {
-							$url = Yii :: app()->request->baseUrl . '/site/sp?i=' . $mnt->id . '&_' . $mnt->name;
+							$urlt = Yii :: app()->request->baseUrl . '/site/sp?i=' . $mnt->id . '&_' . $mnt->name;
 						}
 ?>
-				<a href='<?php echo $url ; ?>' target='_blank' title=''><img
+				<a href='<?php echo $urlt ; ?>' target='_blank' title=''><img
 			border='0'
 			src='<?php echo Yii::app()->request->baseUrl."/files/images/".$mnt->image; ?>'
 			width='150' style='margin-bottom: 4px'></a>
@@ -290,12 +294,12 @@ foreach ($pas as $pa) {
 				));
 				if ($mnfs != null) {
 					foreach ($mnfs as $mnf) {
-						$url = $mnf->url;
+						$urlp = $mnf->url;
 						if ($mnf->url == null) {
-							$url = Yii :: app()->request->baseUrl . '/site/sp?i=' . $mnf->id . '&_' . $mnf->name;
+							$urlp = Yii :: app()->request->baseUrl . '/site/sp?i=' . $mnf->id . '&_' . $mnf->name;
 						}
 ?>
-				<a href='<?php echo $url;?>' target='_blank' title=''><img
+				<a href='<?php echo $urlp;?>' target='_blank' title=''><img
 			border='0'
 			src='<?php echo Yii::app()->request->baseUrl."/files/images/".$mnf->image; ?>'
 			width='150' style='margin-bottom: 4px'></a>

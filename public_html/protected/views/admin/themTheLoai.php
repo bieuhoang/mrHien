@@ -31,10 +31,13 @@ $form = $this->beginWidget ( 'CActiveForm', array (
 		<?php echo $form->labelEx($model,'image'); ?>
 		<?php echo $form->fileField($model, 'image');?>
 		<?php echo $form->error($model,'image'); ?>
-	</div>
+</div>
+<div class="row">
+	<label>URL</label><input type="text" name="Sanpham[url]" />
+</div>	
 <div class="row">
 	<label for="Sanpham_parent">Tóm tắt</label>
-	<textarea id="ttnd" name="Sanpham[tomtat]"></textarea>
+	<textarea id="ttnd" name="Sanpham[tomtat]" style="height: 250px;"></textarea>
 </div>
 <div class="row">
 	<label for="Sanpham_parent">Nội dung chi tiết</label>

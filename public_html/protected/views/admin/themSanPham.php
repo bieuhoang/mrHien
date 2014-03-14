@@ -31,7 +31,9 @@ $form = $this->beginWidget ( 'CActiveForm', array (
 <div class="row">
 	<label>Thứ tự hiển thị</label><input type="text" name="Sanpham[thutu]" />
 </div>
-<div class="
+<div class="row">
+	<label>URL</label><input type="text" name="Sanpham[url]" /><br>(liên kết khi click vài hình ảnh với hình ảnh TOP, LEFT, RIGHT, không muốn chuyển đi đâu thì nhập #)
+</div>
 <div   class="row loaisp"></div>
 <div class="row">
 		<?php echo $form->labelEx($model,'name'); ?>
@@ -46,7 +48,7 @@ $form = $this->beginWidget ( 'CActiveForm', array (
 
 <div class="row">
 	<label for="Sanpham_parent">Tóm tắt</label>
-	<textarea name="Sanpham[tomtat]"></textarea>
+	<textarea style="height: 250px;" name="Sanpham[tomtat]"></textarea>
 </div>
 <div class="row">
 	<label for="Sanpham_parent">Nội dung</label>
