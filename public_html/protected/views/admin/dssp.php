@@ -41,7 +41,7 @@ if ($sps != null) {
 			}
 		}
 		if ($thisSp != null) {
-			$type = Objects::model ()->findByPk ( $thisSp->type );
+			$type = Object::model ()->findByPk ( $thisSp->type );
 			if ($type != null) {
 				$tenTl = $tenTl . $type->name . "</br>";
 			}
