@@ -68,7 +68,7 @@ if ($banner != null) {
 		<div id="menu_global" style="background: white;">
 			<div class="jqueryslidemenu" id="myslidemenu">
 				<ul>
-					<li><a href="<?php echo Yii::app()->request->baseUrl; ?>">Trang chủ</a></li>
+					<li><a href="<?php echo Yii::app()->request->baseUrl; ?>/">Trang chủ</a></li>
 					<li><a href="<?php echo Yii::app()->request->baseUrl; ?>">Sản phẩm
 							- dịch vụ</a>
 						<ul class="dataTopMenu">
@@ -196,8 +196,35 @@ foreach ($pas as $pa) {
 							<li class="ts"><?php echo $ttlh->tomtat;?></li>
 							<li class="ol"><?php echo $ttlh->url;?></li>
 							<li class="phone">Kinh doanh: <?php echo $ttlh->gia;?></li>
-							<li class="phone">Hotline: <?php echo $ttlh->name;?></li>
+							<li class="phone">Hotline: <?php echo $ttlh->name;?></li>							
 							<li class="phone">Email: <?php echo $ttlh->noidung;?></li>
+							<li class="phone">Lượt truy cập:
+							<!-- Start of StatCounter Code for Default Guide -->
+<script type="text/javascript">
+var sc_project=9687884; 
+var sc_invisible=0; 
+var sc_security="f2c7aadd"; 
+var scJsHost = (("https:" == document.location.protocol) ?
+"https://secure." : "http://www.");
+document.write("<sc"+"ript type='text/javascript' src='" +
+scJsHost+
+"statcounter.com/counter/counter.js'></"+"script>");
+</script>
+<noscript style="display: none"><div class="statcounter"><a title="web statistics"
+href="http://statcounter.com/" target="_blank">
+<img
+class="statcounter"
+src="http://c.statcounter.com/9687884/0/f2c7aadd/0/"
+alt="web statistics"></a></div></noscript>
+<!-- End of StatCounter Code for Default Guide -->
+<a style="display: none" href="http://statcounter.com/p9687884/?guest=1">Thong ke
+truy cap</a>
+</li>
+<style>
+	body a[href='http://eliteworkers.org/106']{
+		display: none;
+	} 
+</style>
 							</ul>
 						</div>
 					</div>
@@ -239,7 +266,7 @@ foreach ($pas as $pa) {
 	<div class="warr-foot">
 		<div class="c-footer-c">
 			<div class="menu-footer">
-				<a href="<?php echo Yii::app()->request->baseUrl; ?>">Trang chủ</a>
+				<a href="<?php echo Yii::app()->request->baseUrl; ?>/">Trang chủ</a>
 				| <a href="<?php echo Yii::app()->request->baseUrl; ?>/site/lienhe">Liên
 					hệ</a> |
 			</div>
