@@ -1,11 +1,11 @@
 <div class="box-title-c">
 <?php 
-	$id = $_GET['i'];
+	$id = $_GET['idTl'];
 	$pas = Sanpham::model()->findByPk($id);
 		if(isset($pas) && $pas != null && $pas != ""){?>
-			<div class="link-id"><h2><a href="<?php echo Yii::app()->request->baseUrl;?>">Trang chủ</a>
- » <a href="<?php echo Yii::app()->request->baseUrl;?>">Sản phẩm - dịch vụ</a>
- » <a href="<?php echo Yii::app()->request->baseUrl."/site/theloai?i=".$pas->id;?>"><?php echo $pas->name;?></a>
+			<div class="link-id"><h2><a href="/">Trang chủ</a>
+ » <a href="/">Sản phẩm - dịch vụ</a>
+ » <a href="<?php echo Yii::app()->request->baseUrl."/site/theloai?idTl=".$pas->id;?>"><?php echo $pas->name;?></a>
 <div style="clear:both; font-size:11px; border-bottom:1px solid #ccc; padding:6px 0 6px 9px; margin-bottom:12px;"> 
 </div>
 			<div id="fontnewsdetail" class="content"><h1 style="display:block;"><?php echo $pas->name;?></h1>

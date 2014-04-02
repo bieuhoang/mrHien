@@ -441,6 +441,9 @@ class Admin123465789Controller extends CController {
 			if (CUploadedFile :: getInstance($sp, 'image') != null && CUploadedFile :: getInstance($sp, 'image') != "") {
 				$sp->image = CUploadedFile :: getInstance($sp, 'image');
 				$sp->image->saveAs(Yii :: getPathOfAlias('webroot.files.') . '/images/' . CUploadedFile :: getInstance($sp, 'image'));
+			}else{
+				if (isset ($upSp["image"]) && $upSp["image"] != null && $upSp["image"] != "")
+				$sp->image = $upSp["image"];
 			}
 			$sp->save();
 			$this->redirect(array (

@@ -6,7 +6,7 @@ $ttlh = Sanpham :: model()->find(array ("condition" => "type = '11'"));
 <script type="text/javascript">
 var baseUrl = "<?php echo Yii::app()->request->baseUrl; ?>";
 </script>
-
+<script type="text/javascript" src="http://www.skypeassets.com/i/scom/js/skype-uri.js"></script>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="vi" dir="ltr">
 <head>
@@ -68,8 +68,8 @@ if ($banner != null) {
 		<div id="menu_global" style="background: white;">
 			<div class="jqueryslidemenu" id="myslidemenu">
 				<ul>
-					<li><a href="<?php echo Yii::app()->request->baseUrl; ?>/">Trang chủ</a></li>
-					<li><a href="<?php echo Yii::app()->request->baseUrl; ?>">Sản phẩm
+					<li><a href="/">Trang chủ</a></li>
+					<li><a href="/">Sản phẩm
 							- dịch vụ</a>
 						<ul class="dataTopMenu">
 						<?php
@@ -86,8 +86,8 @@ foreach ($pas as $pa) {
 		
 	));
 ?>
-						<li><a
-								href="<?php echo Yii::app()->request->baseUrl."/site/theloai?i=".$pa->id."&_".$pa->name;?>"><?php echo $pa->name;?></a>
+						<li><a style="text-transform:uppercase;"
+								href="<?php echo Yii::app()->request->baseUrl."/site/theloai?idTl=".$pa->id."&_".$pa->name;?>"><?php echo $pa->name;?></a>
 								<ul>
 								<?php
 
@@ -148,10 +148,34 @@ foreach ($pas as $pa) {
 						<h2>Sản phẩm - dịch vụ</h2>
 
 						<ul class="menuleft">
-							<?php foreach($pas as $pa){?>
-							<li><a
-								href="<?php echo Yii::app()->request->baseUrl."/site/theloai?i=".$pa->id."&_".$pa->name;?>"><?php echo $pa->name;?></a></li>
-							<?php }?>
+							<?php
+							$thisIdTl = 0;
+							if(isset($_GET['idTl']) && $_GET['idTl']> 0){
+								$thisIdTl = $_GET['idTl'];
+							}
+							if(isset($_GET['i']) && $_GET['i']> 0){
+								$thisSpam = Sanpham::model()->findByPk($_GET['i']);
+								if(isset($thisSpam) && $thisSpam != null && $thisSpam != ""){
+									$thisTl = Sanpham::model()->findByPk($pas->parent);
+									$thisIdTl = $thisTl->id;
+								}	
+							}	
+							foreach($pas as $pa){?>
+							<a style="text-decoration:none;" href="<?php echo Yii::app()->request->baseUrl."/site/theloai?idTl=".$pa->id."&_".$pa->name;?>">	
+							<li class="leftItemsMonu">
+							<?php echo $pa->name;?></li></a>
+							<?php 
+								if($thisIdTl > 0 && $pa->id == $thisIdTl){
+									$danhsachSps = Sanpham::model()->findAll(array("condition" => "parent = '$pa->id'", 'order'=>'thutu ASC'));
+									if($danhsachSps != null){
+										foreach($danhsachSps as $danhsachSp){?>
+										<a class="aChirldLeft"	href='<?php echo Yii::app()->request->baseUrl."/site/sp?i=".$ch->id."&_".$ch->name;?>'>
+												<?php echo $danhsachSp->name;?>
+										</a>
+										<?php }
+									}
+								}
+							}?>
 						</ul>
 					</div>
 
@@ -196,10 +220,44 @@ foreach ($pas as $pa) {
 							<li class="ts"><?php echo $ttlh->tomtat;?></li>
 							<li class="ol"><?php echo $ttlh->url;?></li>
 							<li class="phone">Kinh doanh: <?php echo $ttlh->gia;?></li>
+							<li class="phone"><a href="ymsgr:sendIM?<?php echo $ttlh->tieude;?>">
+							<img src="http://opi.yahoo.com/online?u=<?php echo $ttlh->tieude;?>&m=g&t=2" border="0" alt="" /> </a></li>
+							<li class="phone">
+								<div class="thisBtSkype" id="SkypeButton_Call_<?php echo $ttlh->image;?>_1" style="">
+								  <script type="text/javascript">
+								    Skype.ui({
+								      "name": "dropdown",
+								      "element": "SkypeButton_Call_<?php echo $ttlh->image;?>_1",
+								      "participants": ["<?php echo $ttlh->image;?>"],
+      								  "imageSize": 32
+								    });
+								  </script>
+								</div>
+							</li>
 							<li class="phone">Hotline: <?php echo $ttlh->name;?></li>							
-							<li class="phone">Email: <?php echo $ttlh->noidung;?></li>
+							<li class="phone">Email: <?php echo $ttlh->noidung;?></li>							
 							<li class="phone">Lượt truy cập:
+							
+							<!-- Start of StatCounter Code for ComfyPage -->
+<script type="text/javascript">
+var sc_project=9715916; 
+var sc_invisible=0; 
+var sc_security="52bce55d"; 
+var scJsHost = (("https:" == document.location.protocol) ?
+"https://secure." : "http://www.");
+document.write("<sc"+"ript type='text/javascript' src='" +
+scJsHost+
+"statcounter.com/counter/counter.js'></"+"script>");
+</script>
+<noscript><div class="statcounter"><a title="web analytics"
+href="http://statcounter.com/" target="_blank"><img
+class="statcounter"
+src="http://c.statcounter.com/9715916/0/52bce55d/0/"
+alt="web analytics"></a></div></noscript>
+<!-- End of StatCounter Code for ComfyPage -->
+							
 							<!-- Start of StatCounter Code for Default Guide -->
+<!--							
 <script type="text/javascript">
 var sc_project=9687884; 
 var sc_invisible=0; 
@@ -216,6 +274,7 @@ href="http://statcounter.com/" target="_blank">
 class="statcounter"
 src="http://c.statcounter.com/9687884/0/f2c7aadd/0/"
 alt="web statistics"></a></div></noscript>
+-->
 <!-- End of StatCounter Code for Default Guide -->
 <a style="display: none" href="http://statcounter.com/p9687884/?guest=1">Thong ke
 truy cap</a>
@@ -266,7 +325,7 @@ truy cap</a>
 	<div class="warr-foot">
 		<div class="c-footer-c">
 			<div class="menu-footer">
-				<a href="<?php echo Yii::app()->request->baseUrl; ?>/">Trang chủ</a>
+				<a href="/">Trang chủ</a>
 				| <a href="<?php echo Yii::app()->request->baseUrl; ?>/site/lienhe">Liên
 					hệ</a> |
 			</div>
@@ -353,6 +412,43 @@ truy cap</a>
   ga('send', 'pageview');
 
 </script>
-
+<style>
+	.thisBtSkype p a img{
+		border: 1px solid black !important;
+		width: 124px;
+		height: 23px;
+		margin:6px 0 0 0  !important;
+		border-radius: 9;
+	}
+	.leftItemsMonu{
+		cursor: pointer;
+		background: #306FBA;
+		margin: 3px;
+		min-height: 24px;
+		padding: 12px 0 0 10px;
+		font-size: 14px;
+		color: white !important;
+		text-transform:uppercase;
+	}
+	.leftItemsMonu:hover{
+		background: #00a1de;
+		padding-left: 15px;
+	}
+	.aChirldLeft{
+		text-decoration:none;
+		background: url('<?php echo Yii::app()->request->baseUrl."/images/data/right.gif"; ?>') 15 12 no-repeat;
+		min-height: 20px;
+		margin-top: 5px;
+		padding: 6 0 8 30px;
+		border-bottom: 1px dotted;
+		width: 100%;
+		font-size: 17px;
+		color: #0094D2;
+		display: block;
+	}
+	.aChirldLeft:hover{
+		color: black;
+	}
+</style>
 
 

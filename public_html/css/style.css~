@@ -1433,6 +1433,7 @@ ul.menuleft li {
 	color: #000;
 	display: block;
 	font-weight: bold;
+	padding: 5px 0 5px 20px;
 	text-decoration: none;
 }
 

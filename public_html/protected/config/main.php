@@ -35,10 +35,10 @@ return array(
 			'allowAutoLogin'=>true,
 		),
 			'db'=>array(
-					'connectionString' => 'mysql:host=mysql.0hosting.org;dbname=u429035675_mrhie',
+					'connectionString' => 'mysql:host=localhost;dbname=u429035675_mrhie',
 					'emulatePrepare' => true,
-					'username' => 'u429035675_mrhie',
-					'password' => 'Hanoi2014',
+					'username' => 'root',
+					'password' => 'public123',
 					'charset' => 'utf8',
 			),
 		// uncomment the following to enable URLs in path-format

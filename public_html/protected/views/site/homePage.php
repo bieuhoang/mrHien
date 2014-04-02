@@ -8,9 +8,9 @@
 ?>
 				<td style="border: 1px solid #ccc; border-radius: 6px;background: white;">
 					<div class="box-service" style="border: none;">
-						<h2><a href="<?php echo Yii::app ()->request->baseUrl . '/site/theloai?i=' . $pa->id . '&_' . $pa->name; ?>"><?php echo $pa->name;?></a></h2>
+						<h2><a href="<?php echo Yii::app ()->request->baseUrl . '/site/theloai?idTl=' . $pa->id . '&_' . $pa->name; ?>"><?php echo $pa->name;?></a></h2>
 						<div class="pd-box">
-						<a href="<?php echo Yii::app ()->request->baseUrl . '/site/theloai?i=' . $pa->id . '&_' . $pa->name; ?>">
+						<a href="<?php echo Yii::app ()->request->baseUrl . '/site/theloai?idTl=' . $pa->id . '&_' . $pa->name; ?>">
 							<img style="width: 200px;margin-bottom: 26px;" src="<?php echo Yii::app()->request->baseUrl."/files/images/".$pa->image; ?>"/>
 						</a>	
 							<div class="contentTheloai style="font-size: 20px;"><?php echo $pa->tomtat; ?></div>

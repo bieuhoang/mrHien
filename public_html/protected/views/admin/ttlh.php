@@ -30,6 +30,12 @@ $form = $this->beginWidget('CActiveForm', array (
 <div class="row">
 	<label>Email</label><input type="text" value="<?php if($ttlh != null) echo $ttlh->noidung; ?>" name="Sanpham[noidung]" size="100"/>
 </div>
+<div class="row">
+	<label>Yahoo</label><input type="text" value="<?php if($ttlh != null) echo $ttlh->tieude; ?>" name="Sanpham[tieude]" size="100"/>
+</div>
+<div class="row">
+	<label>Skype</label><input type="text" value="<?php if($ttlh != null) echo $ttlh->image; ?>" name="Sanpham[image]" size="100"/>
+</div>
 <div class="row buttons">
 		<?php echo CHtml::submitButton('CẬP NHÂT'); ?>
 	</div>

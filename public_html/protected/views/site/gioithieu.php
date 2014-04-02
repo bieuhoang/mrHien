@@ -1,5 +1,5 @@
 <?php 
-$sp = Sanpham::model ()->findAll ( array (
+$sp = Sanpham::model ()->find( array (
 		"condition" => "gioithieu = '1'"
 ) );
 if($sp == null){
