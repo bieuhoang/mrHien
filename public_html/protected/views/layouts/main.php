@@ -156,7 +156,7 @@ foreach ($pas as $pa) {
 							if(isset($_GET['i']) && $_GET['i']> 0){
 								$thisSpam = Sanpham::model()->findByPk($_GET['i']);
 								if(isset($thisSpam) && $thisSpam != null && $thisSpam != ""){
-									$thisTl = Sanpham::model()->findByPk($pas->parent);
+									$thisTl = Sanpham::model()->findByPk($thisSpam->parent);
 									$thisIdTl = $thisTl->id;
 								}	
 							}	
