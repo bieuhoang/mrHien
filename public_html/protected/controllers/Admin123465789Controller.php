@@ -149,7 +149,7 @@ class Admin123465789Controller extends CController {
 	function deleteImages($thisSp) {
 		if($thisSp->image != null)
 		$img = $thisSp->image;
-		if ($img != null && $img != "") {
+		if (isset($img) && $img != null && $img != "") {
 			
 			$spim = Sanpham :: model()->findAll(array ("condition" => "image = '$img'"	));
 			if (count($spim) == 1) {

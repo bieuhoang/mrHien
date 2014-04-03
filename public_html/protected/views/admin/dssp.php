@@ -1,3 +1,4 @@
+<div class="titleAdmin">DANH SÁCH SẢN PHẨM</div>
 <?php
 $sps = Sanpham::model ()->findAll ( array (
 		"condition" => "type <> '1'" 
